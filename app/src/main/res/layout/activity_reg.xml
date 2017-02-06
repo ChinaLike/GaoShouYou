@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/skin_background_color">
+
+        <include layout="@layout/layout_bar" />
+
+        <EditText
+            android:id="@+id/phone_num"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_item_height"
+            android:layout_below="@+id/bar"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="@dimen/margin_v_8"
+            android:layout_marginTop="32dp"
+            android:layout_toLeftOf="@+id/code_bt"
+            android:background="@drawable/bg_login_et"
+            android:hint="手机号："
+            android:inputType="phone"
+            android:maxLength="11"
+            android:paddingLeft="@dimen/margin_v_16"
+            android:paddingRight="@dimen/margin_h_16"
+            android:textColor="@color/skin_text_black_color"
+            android:textColorHint="@color/skin_text_gray_color_dark" />
+
+        <com.lyy.ui.widget.CountDownButton
+            android:id="@+id/code_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/login_item_height"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/phone_num"
+            android:layout_below="@+id/bar"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/skin_selector_reg_code_bg"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingLeft="@dimen/margin_v_8"
+            android:paddingRight="@dimen/margin_v_8"
+            android:text="获取验证码"
+            android:textColor="@drawable/skin_selector_search_tag_text_bg" />
+
+        <EditText
+            android:id="@+id/code_et"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_item_height"
+            android:layout_alignLeft="@+id/phone_num"
+            android:layout_alignRight="@+id/code_bt"
+            android:layout_below="@+id/code_bt"
+            android:layout_marginTop="@dimen/margin_v_8"
+            android:background="@drawable/bg_login_et"
+            android:hint="请输入短信验证码"
+            android:inputType="number"
+            android:paddingLeft="@dimen/margin_v_16"
+            android:paddingRight="@dimen/margin_h_16"
+            android:textColor="@color/skin_text_black_color"
+            android:textColorHint="@color/skin_text_gray_color_dark" />
+
+        <RelativeLayout
+            android:id="@+id/rl"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_item_height"
+            android:layout_alignLeft="@+id/code_et"
+            android:layout_alignRight="@+id/code_et"
+            android:layout_below="@+id/code_et"
+            android:layout_marginTop="@dimen/margin_h_8"
+            android:background="@drawable/bg_login_et">
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/login_item_height"
+                android:layout_toLeftOf="@+id/toggle"
+                android:background="@color/transparent"
+                android:hint="请设置6-20位登录密码"
+                android:inputType="textPassword"
+                android:maxLength="20"
+                android:minEms="5"
+                android:paddingLeft="@dimen/margin_v_16"
+                android:paddingRight="@dimen/margin_v_16"
+                android:textColor="@color/skin_text_black_color"
+                android:textColorHint="@color/skin_text_gray_color_dark" />
+
+            <com.lyy.ui.widget.MyToggleButton
+                android:id="@+id/toggle"
+                android:layout_width="48dp"
+                android:layout_height="24dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/setting_switch_info_padding"
+                app:tb_offColor="#DDDDDD"
+                app:tb_onColor="#0DC6C8"
+                app:tb_spotColor="#FFFFFF" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/phone_num"
+            android:layout_below="@+id/rl"
+            android:layout_marginTop="@dimen/margin_h_8"
+            android:text="注册即视为同意"
+            android:textColor="@color/text_gray_color"
+            android:textSize="@dimen/text_medium" />
+
+        <TextView
+            android:id="@+id/reg_agreement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/text1"
+            android:layout_toRightOf="@+id/text1"
+            android:onClick="onClick"
+            android:text="《高手游用户注册协议》"
+            android:textColor="@drawable/selector_blue_gray_text_bg"
+            android:textSize="@dimen/text_medium" />
+
+        <Button
+            android:id="@+id/reg_bt"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_item_height"
+            android:layout_alignLeft="@+id/phone_num"
+            android:layout_alignRight="@+id/code_bt"
+            android:layout_below="@+id/text1"
+            android:layout_marginTop="@dimen/margin_h_16"
+            android:background="@drawable/selector_login_bt"
+            android:onClick="onClick"
+            android:text="注册"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_larger" />
+
+    </RelativeLayout>
+</layout>

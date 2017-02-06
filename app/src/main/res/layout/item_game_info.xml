@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:background="@drawable/skin_selector_item_bg"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_gray_divider" />
+
+
+    <!--<com.lyy.ui.group.MaterialRippleLayout-->
+    <!--style="@style/RippleLayoutStyle"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/game_game_info_height"
+        android:layout_marginLeft="@dimen/margin_h_16"
+        android:layout_marginRight="@dimen/margin_h_16">
+
+        <ImageView
+            android:id="@+id/game_icon"
+            android:layout_width="@dimen/item_img_w_h"
+            android:layout_height="@dimen/item_img_w_h"
+            android:layout_centerVertical="true"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/default_icon" />
+
+        <TextView
+            android:id="@+id/game_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/game_icon"
+            android:layout_marginLeft="10dp"
+            android:layout_toLeftOf="@+id/download"
+            android:layout_toRightOf="@+id/game_icon"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="游戏名字游戏名字游戏名字游戏名字"
+            android:textColor="@color/skin_text_black_color"
+            android:textSize="@dimen/text_larger" />
+
+        <com.lyy.ui.widget.StarBar
+            android:id="@+id/star_bar"
+            android:layout_width="100dp"
+            android:layout_height="18dp"
+            android:layout_alignLeft="@+id/game_name"
+            android:layout_below="@+id/game_name"
+            android:layout_marginTop="2dp"
+            app:sb_child_h="18dp"
+            app:sb_child_w="18dp"
+            app:sb_score="5" />
+
+        <TextView
+            android:layout_marginTop="2dp"
+            android:id="@+id/game_introduction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/game_name"
+            android:layout_below="@+id/star_bar"
+            android:text="info"
+            android:textColor="#D4D4D4"
+            android:textSize="@dimen/text_mini" />
+
+        <TextView
+            android:id="@+id/game_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/game_icon"
+            android:layout_alignLeft="@+id/game_name"
+            android:layout_below="@+id/game_introduction"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="游戏介绍"
+            android:textColor="@color/skin_text_gray_color"
+            android:textSize="@dimen/text_medium" />
+
+        <Button
+            android:id="@+id/download"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/game_icon"
+            android:background="@drawable/selector_green_bt"
+            android:gravity="center"
+            android:text="下载"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_larger" />
+
+    </RelativeLayout>
+    <!--</com.lyy.ui.group.MaterialRippleLayout>-->
+</LinearLayout>
+
+

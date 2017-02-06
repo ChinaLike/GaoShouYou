@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="lev"
+            type="CharSequence" />
+
+        <variable
+            name="exp"
+            type="String" />
+
+        <variable
+            name="total"
+            type="String" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/skin_background_color"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_h_8"
+            android:background="@color/skin_white_color"
+            android:padding="@dimen/margin_h_16">
+
+            <TextView
+                android:id="@+id/lev"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{lev}"
+                android:textColor="@color/skin_black_color"
+                android:textSize="@dimen/text_larger" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lev"
+                android:layout_marginTop="@dimen/margin_v_4"
+                android:text="@{exp}"
+                android:textColor="@color/skin_text_gray_color"
+                android:textSize="@dimen/text_medium" />
+
+            <Button
+                android:id="@+id/bt"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/selector_green_bt"
+                android:text="等级规则"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_larger" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/margin_v_4"
+            android:paddingLeft="@dimen/margin_h_16"
+            android:paddingRight="@dimen/margin_h_16"
+            android:paddingTop="@dimen/margin_v_4"
+            android:text="@{total}"
+            android:textColor="@color/skin_text_gray_color"
+            android:textSize="@dimen/text_medium" />
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/transparent"
+            android:dividerHeight="1dp"
+            android:listSelector="@color/transparent" />
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">高手游</string>
+    <string name="action_settings">Settings</string>
+    <string name="dialog_bright_hint">亮度调节只会在高手游APP中生效..</string>
+    <string name="dialog_bright_title">设置亮度</string>
+    <string name="dialog_bright_checkbox">自动调节亮度</string>
+    <string name="str_copyright">©2014–2016 Sichuan Touchrom Technology Co.Ltd</string>
+    <string name="str_copyright_1">©2014–2016 GaoShouYou</string>
+
+    <!--gameFragment-->
+    <string name="game_gift_code">礼包发号</string>
+    <string name="game_raiders">高手攻略</string>
+    <string name="game_evaluation">游戏评测</string>
+    <string name="game_open_server">网游开服</string>
+    <string name="follow">+关注</string>
+    <string name="cancel_follow">取消关注</string>
+
+    <string-array name="find_gift_tag">
+        <item>全部</item>
+        <item>特权礼包</item>
+        <item>激活码</item>
+        <item>新手卡</item>
+    </string-array>
+
+    <string-array name="user_data_hint">
+        <item>昵称：</item>
+        <item>性别：</item>
+        <item>取向：</item>
+        <item>地区：</item>
+        <item>签名：</item>
+        <item>标签：</item>
+    </string-array>
+
+    <string-array name="find_gift_id">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>

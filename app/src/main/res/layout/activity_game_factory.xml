@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/skin_background_color"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+        <include layout="@layout/layout_bar" />
+
+        <include layout="@layout/layout_temp_view" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/skin_primary_color"
+            android:padding="@dimen/margin_h_16">
+
+            <ImageView
+                android:id="@+id/factory_icon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@mipmap/default_icon" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_h_16"
+                android:layout_toRightOf="@+id/factory_icon"
+                android:maxLines="1"
+                android:text="厂商名称"
+                android:textColor="@color/skin_white_color"
+                android:textSize="@dimen/text_larger" />
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/name"
+                android:layout_below="@+id/name"
+                android:layout_marginTop="10dp"
+                android:ellipsize="end"
+                android:maxLines="4"
+                android:text="内容"
+                android:textColor="@color/skin_white_color"
+                android:textSize="@dimen/text_medium" />
+
+            <TextView
+                android:id="@+id/content_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/name"
+                android:layout_below="@+id/name"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/skin_white_color"
+                android:textSize="@dimen/text_medium"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <com.lyy.ui.pulltorefresh.PullToRefreshListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/transparent"
+            android:listSelector="@color/transparent" />
+
+    </LinearLayout>
+</layout>

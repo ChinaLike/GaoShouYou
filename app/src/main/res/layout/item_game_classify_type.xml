@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/skin_white_color"
+    android:minHeight="50dp">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin_h_16"
+        android:gravity="center"
+        android:text="所有游戏"
+        android:textColor="@drawable/skin_selector_game_classify_text_bg"
+        android:textSize="@dimen/text_larger" />
+
+    <View
+        android:id="@+id/check"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/margin_h_16"
+        android:background="@mipmap/icon_item_checked" />
+
+</RelativeLayout>

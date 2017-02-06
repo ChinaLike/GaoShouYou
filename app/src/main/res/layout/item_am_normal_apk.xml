@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/skin_selector_item_bg"
+    android:padding="@dimen/margin_h_8">
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin_h_8"
+        android:layout_toRightOf="@+id/checkbox"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/default_icon" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/icon"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="3dp"
+        android:layout_toLeftOf="@+id/bt"
+        android:layout_toRightOf="@+id/icon"
+        android:maxLines="1"
+        android:text="游戏名"
+        android:textColor="@color/skin_text_black_color"
+        android:textSize="@dimen/text_larger" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name"
+        android:layout_below="@+id/name"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp"
+        android:layout_toLeftOf="@+id/bt"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="4.6.1"
+        android:textColor="@color/skin_text_gray_color"
+        android:textSize="@dimen/text_medium" />
+
+    <TextView
+        android:id="@+id/install_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name"
+        android:layout_below="@+id/info"
+        android:layout_marginTop="2dp"
+        android:text="已安装"
+        android:textColor="@color/skin_text_gray_color"
+        android:textSize="@dimen/text_medium" />
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="bt"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_mini" />
+
+</RelativeLayout>

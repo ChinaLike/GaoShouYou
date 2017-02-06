@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/layout_bar" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/bar">
+
+            <FrameLayout
+                android:id="@+id/capture_preview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <FrameLayout
+                android:id="@+id/scan_box"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/bottom_bar">
+
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center"
+                    android:src="@mipmap/bg_scan_box" />
+
+                <FrameLayout
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:id="@+id/scan_bar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/bg_scan_bar" />
+
+                </FrameLayout>
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/bottom_bar"
+                android:layout_width="match_parent"
+                android:layout_height="136dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/btn_default_shadow"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/light"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="@dimen/margin_h_16"
+                    android:layout_marginRight="@dimen/margin_h_16"
+                    android:layout_marginTop="@dimen/margin_h_16"
+                    android:background="@drawable/selector_white_bt"
+                    android:onClick="onClick"
+                    android:text="闪光灯"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_larger" />
+
+                <Button
+                    android:id="@+id/photo"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="@dimen/margin_h_16"
+                    android:layout_marginRight="@dimen/margin_h_16"
+                    android:layout_marginTop="@dimen/margin_h_16"
+                    android:background="@drawable/selector_green_bt"
+                    android:onClick="onClick"
+                    android:text="相册图片"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_larger" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <include layout="@layout/layout_temp_view" />
+    </RelativeLayout>
+</layout>

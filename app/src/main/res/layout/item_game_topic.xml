@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/skin_selector_item_bg"
+    android:paddingBottom="@dimen/margin_h_16"
+    android:paddingTop="@dimen/margin_h_16">
+
+    <TextView
+        android:id="@+id/topic_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:paddingBottom="@dimen/margin_v_8"
+        android:paddingLeft="@dimen/margin_h_16"
+        android:text="高手盘点"
+        android:textColor="@color/skin_text_black_color"
+        android:textSize="@dimen/text_larger" />
+
+    <TextView
+        android:id="@+id/more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/topic_title"
+        android:layout_marginRight="@dimen/margin_h_16"
+        android:text="更多"
+        android:textColor="@drawable/selector_blue_gray_text_bg" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/topic_title"
+        android:background="@color/skin_line_color" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_below="@+id/line"
+        android:layout_marginLeft="@dimen/margin_h_16"
+        android:layout_marginTop="@dimen/margin_h_16" />
+
+    <TextView
+        android:id="@+id/content_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/img"
+        android:layout_marginLeft="@dimen/margin_v_8"
+        android:layout_marginRight="@dimen/margin_h_16"
+        android:layout_toEndOf="@+id/img"
+        android:layout_toRightOf="@+id/img"
+        android:maxLines="1"
+        android:text="标题"
+        android:textColor="@color/skin_text_black_color"
+        android:textSize="@dimen/text_larger" />
+
+    <TextView
+        android:id="@+id/content_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/content_title"
+        android:layout_below="@+id/content_title"
+        android:layout_marginRight="@dimen/margin_h_16"
+        android:layout_marginTop="@dimen/margin_v_4"
+        android:ellipsize="end"
+        android:maxLines="4"
+        android:text="sss"
+        android:textColor="@color/skin_text_gray_color"
+        android:textSize="@dimen/text_medium" />
+</RelativeLayout>

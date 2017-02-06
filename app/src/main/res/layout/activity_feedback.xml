@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/skin_background_color"
+        android:orientation="vertical">
+
+        <com.touchrom.gaoshouyou.widget.MyToolBar
+            android:id="@+id/bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:mt_right_text="提交"
+            app:mt_title="意见反馈" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_v_8"
+            android:layout_marginLeft="@dimen/margin_h_16"
+            android:layout_marginRight="@dimen/margin_h_16"
+            android:layout_marginTop="@dimen/margin_v_8">
+
+            <EditText
+                android:id="@+id/feedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top|left"
+                android:hint="@string/setting_feedback_hint"
+                android:lines="8"
+                android:padding="8dp"
+                android:textColorHint="#999999"
+                android:textColor="@color/skin_text_black_color" />
+        </ScrollView>
+
+        <EditText
+            android:textColor="@color/skin_text_black_color"
+            android:textColorHint="#999999"
+            android:id="@+id/contact"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="@dimen/margin_v_8"
+            android:layout_marginLeft="@dimen/margin_h_16"
+            android:layout_marginRight="@dimen/margin_h_16"
+            android:layout_marginTop="@dimen/margin_v_8"
+            android:hint="@string/setting_feedback_contact"
+            android:padding="8dp" />
+
+    </LinearLayout>
+</layout>

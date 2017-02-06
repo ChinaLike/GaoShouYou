@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.TabLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tab"
+    style="@style/TabLayoutStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/skin_tab_background_color"
+    app:tabIndicatorColor="@color/skin_primary_color"
+    app:tabSelectedTextColor="@color/skin_tab_text_color_selected_color"
+    app:tabTextColor="@color/skin_tab_text_color" />

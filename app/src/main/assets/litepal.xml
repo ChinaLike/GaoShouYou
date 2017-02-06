@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="GSY_CLIENT" />
+    <version value="2" />
+
+    <list>
+        <mapping class="com.touchrom.gaoshouyou.entity.sql.ApkInfoEntity" />
+        <mapping class="com.touchrom.gaoshouyou.entity.sql.DownloadEntity" />
+        <mapping class="com.touchrom.gaoshouyou.entity.sql.ApkUpdateInfoEntity" />
+        <mapping class="com.touchrom.gaoshouyou.entity.sql.BrowseRecordEntity" />
+        <mapping class="com.touchrom.gaoshouyou.entity.sql.PushEntity"/>
+    </list>
+
+</litepal>

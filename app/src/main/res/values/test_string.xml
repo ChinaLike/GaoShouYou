@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="test_game_content">我是测试\n我是测试\n我是测试\n我是测试\n我是测试\n我是测试\n我是测试\n我是测试\n我是测试\n我是测试\n我是测试\n我是测试\n我是测试\n我是测试\n我是测试\n我是测试\n我是测试\n我是测试\n我是测试\n我是测试\n我是测试\n我是测试\n我是测试\n我是测试\n我是测试\n我是测试\n我是测试\n我是测试\n我是测试\n</string>
+    <string name="test_game_content_1">我是测试\n</string>
+
+    <string name="test_icon_font">&#xe608;</string>
+
+    <string-array name="test_apk_download_url">
+        <item>http://static.gaoshouyou.com/d/22/94/822260b849944492caadd2983f9bb624.apk</item>  <!--300M的文件-->
+        <item>http://static.gaoshouyou.com/d/21/e8/61218d78d0e8b79df68dbc18dd484c97.apk</item>
+        <item>http://static.gaoshouyou.com/d/12/0d/7f120f50c80d2e7b8c4ba24ece4f9cdd.apk</item>
+        <item>http://static.gaoshouyou.com/d/d4/4f/d6d48db3794fb9ecf47e83c346570881.apk</item>
+        <!--<item>http://static.gaoshouyou.com/d/18/cf/ba18113bc6cf56c1c5863e761e717003.apk</item>-->
+        <!--<item>http://static.gaoshouyou.com/d/60/17/2460921367173ea7145f11194a6f2587.apk</item>-->
+        <!--<item>http://static.gaoshouyou.com/d/32/e0/1a32123ecbe0ee010d35479df248f90f.apk</item>-->
+        <!--<item>http://static.gaoshouyou.com/d/22/94/822260b849944492caadd2983f9bb624.apk</item>-->
+        <!--<item>http://static.gaoshouyou.com/d/e6/f5/4de6329f9cf5dc3a1d1e6bbcca0d003c.apk</item>-->
+        <!--<item>http://static.gaoshouyou.com/d/6e/e5/ff6ecaaf45e532e6d07747af82357472.apk</item>-->
+        <!--<item>http://static.gaoshouyou.com/d/36/69/2d3699acfa69e9632262442c46516ad8.apk</item>-->
+    </string-array>
+
+    <string-array name="test_apk_download_name">
+        <item>0.apk</item>
+        <item>1.apk</item>
+        <item>2.apk</item>
+        <item>3.apk</item>
+        <!--<item>4.apk</item>-->
+        <!--<item>5.apk</item>-->
+        <!--<item>6.apk</item>-->
+        <!--<item>7.apk</item>-->
+        <!--<item>8.apk</item>-->
+        <!--<item>9.apk</item>-->
+        <!--<item>10.apk</item>-->
+    </string-array>
+
+    <string-array name="test_flow">
+        <item>tag11</item>
+        <item>tag111234565</item>
+        <item>tag1188552</item>
+        <item>tag11</item>
+        <item>tag111111</item>
+        <item>tag11</item>
+    </string-array>
+    <string-array name="test_flow_1">
+        <item>tag11</item>
+        <item>tag111234565</item>
+        <item>tag1188552</item>
+        <item>tag11</item>
+        <item>tag111111</item>
+        <item>tag11</item>
+        <item>tag11</item>
+        <item>tag11</item>
+    </string-array>
+
+    <string-array name="test_game_theme_title">
+        <item>我是列表标题1</item>
+        <item>我是列表标题2</item>
+        <item>我是列表标题3</item>
+        <item>我是列表标题4</item>
+        <item>我是列表标题5</item>
+        <item>我是列表标题6</item>
+    </string-array>
+
+    <string-array name="test_rank_type">
+        <item>本周排行</item>
+        <item>游戏排行</item>
+        <item>点赞排行</item>
+        <item>五星排行</item>
+    </string-array>
+
+    <string-array name="test_game_classify_url">
+        <item>http://static.gaoshouyou.com/i/69/32/35695e1bcd32fca380a43058c3f09993.png</item>
+        <item>http://static.gaoshouyou.com/i/a8/b2/eda844a551b2c1d69190e8b8fd7d4af8.png</item>
+        <item>http://static.gaoshouyou.com/i/c8/65/9cc849affe6541bfa7cf7e8855323ce5.png</item>
+        <item>http://static.gaoshouyou.com/i/c8/65/9cc849affe6541bfa7cf7e8855323ce5.png</item>
+        <item>http://static.gaoshouyou.com/i/f6/cb/2cf65de5e4cb0e0739b162fa4593d8ed.png</item>
+        <item>http://static.gaoshouyou.com/i/d8/3f/cfd8f709b83fd9e4d01990b32bcaa237.jpg</item>
+        <item>http://static.gaoshouyou.com/i/d8/3f/cfd8f709b83fd9e4d01990b32bcaa237.jpg</item>
+        <item>http://static.gaoshouyou.com/i/1a/54/df1a287a1354845a95f467feb6281745.png</item>
+        <item>http://static.gaoshouyou.com/i/6f/0c/406f4228540c3feda489c29ebc5376df.png</item>
+        <item>http://static.gaoshouyou.com/i/16/f7/ba16447fe6f7e6cc777af992edabe564.png</item>
+        <item>http://static.gaoshouyou.com/i/ad/f1/c4ad827279f143ddba113089dd8b33c9.png</item>
+        <item>http://static.gaoshouyou.com/i/ad/f1/c4ad827279f143ddba113089dd8b33c9.png</item>
+        <item>http://static.gaoshouyou.com/i/5a/64/725a6cc5f36425ac019165f977b5d73d.png</item>
+        <item>http://static.gaoshouyou.com/i/5a/64/725a6cc5f36425ac019165f977b5d73d.png</item>
+        <item>http://static.gaoshouyou.com/i/56/a1/6f5697f21aa1abf0b7fc584ec12c96c4.png</item>
+    </string-array>
+
+    <string-array name="test_game_icon_url">
+        <item>http://static.gaoshouyou.com/i/69/32/35695e1bcd32fca380a43058c3f09993.png</item>
+        <item>http://static.gaoshouyou.com/i/a8/b2/eda844a551b2c1d69190e8b8fd7d4af8.png</item>
+        <item>http://static.gaoshouyou.com/i/c8/65/9cc849affe6541bfa7cf7e8855323ce5.png</item>
+        <item>http://static.gaoshouyou.com/i/c8/65/9cc849affe6541bfa7cf7e8855323ce5.png</item>
+        <item>http://static.gaoshouyou.com/i/f6/cb/2cf65de5e4cb0e0739b162fa4593d8ed.png</item>
+        <item>http://static.gaoshouyou.com/i/d8/3f/cfd8f709b83fd9e4d01990b32bcaa237.jpg</item>
+        <item>http://static.gaoshouyou.com/i/d8/3f/cfd8f709b83fd9e4d01990b32bcaa237.jpg</item>
+        <item>http://static.gaoshouyou.com/i/1a/54/df1a287a1354845a95f467feb6281745.png</item>
+        <item>http://static.gaoshouyou.com/i/6f/0c/406f4228540c3feda489c29ebc5376df.png</item>
+        <item>http://static.gaoshouyou.com/i/16/f7/ba16447fe6f7e6cc777af992edabe564.png</item>
+        <item>http://static.gaoshouyou.com/i/ad/f1/c4ad827279f143ddba113089dd8b33c9.png</item>
+        <item>http://static.gaoshouyou.com/i/ad/f1/c4ad827279f143ddba113089dd8b33c9.png</item>
+        <item>http://static.gaoshouyou.com/i/5a/64/725a6cc5f36425ac019165f977b5d73d.png</item>
+        <item>http://static.gaoshouyou.com/i/5a/64/725a6cc5f36425ac019165f977b5d73d.png</item>
+        <item>http://static.gaoshouyou.com/i/56/a1/6f5697f21aa1abf0b7fc584ec12c96c4.png</item>
+        <item>http://static.gaoshouyou.com/i/c2/1d/a2c24917661dd8319d571d3cff573f4b.png</item>
+        <item>http://static.gaoshouyou.com/i/63/b9/ef63054cf4b949e0d2880caa859350f5.png</item>
+        <item>http://static.gaoshouyou.com/i/af/b3/a5afdb1214b39085ae4e82cc518da228.png</item>
+        <item>http://static.gaoshouyou.com/i/b9/14/42b96a7f6314f08880aca7f97a9330de.png</item>
+        <item>http://static.gaoshouyou.com/i/07/6a/690743971a6a5f563e25a44f3a0d8800.png</item>
+        <!--<item>http://static.gaoshouyou.com/i/01/70/03011cbea270842be2e7634f192aac7a.jpg</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/01/76/4e016246a3765d4e186e3bdb9a047a10.png</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/01/7e/2701f52f137e1540ef041c22b5462321.png</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/01/82/9a0120cada820205e70dd132432f9569.png</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/01/b7/bd01abf66bb736e444a0997ddedee725.jpg</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/01/c1/8a014a7243c185ba83aaa5a6b3cfcce2.png</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/01/c3/4a010f325cc3e5c502450002a5492cbd.png</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/01/c7/7c015adb4cc7870c9b2818242b58d8fd.png</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/01/e7/6001865fc4e7fb2dbf0b34e149fb0d8c.png</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/01/ec/950125977bec8b41556e6da0dc79d228.jpg</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/02/03/850234a2500396bed675939a1a3aad82.jpg</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/02/03/f5022132c4030ff0aed4309eda28213e.png</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/02/09/de027af61809eb95f9ce10964f67127a.png</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/02/1c/9202dbf7601ceb28e9168ec6c8ccfa3b.jpeg</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/02/31/aa02efcdac3141b6fbc916f8e3d0fd91.jpeg</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/02/35/39022515a135c31d2fc212550f33d770.png</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/02/3f/16021271753f001dc5364584898bdf59.jpg</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/02/52/76020897125265e811b0c5a2dc3434fc.png</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/02/5a/1602cb60fb5a96540554fbe0899df798.png</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/02/74/e60202fa987408f2dcc40dd859178497.png</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/02/7a/76020ea4d57acbd00f641aba433217aa.png</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/02/9d/3702768b219d0fc6a0e350b904651364.jpg</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/02/bf/3d02620569bfb15175f3e07069e7d15a.png</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/02/c2/3c028f6352c2f9269013b1be096e020e.jpg</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/02/ce/f502cdcb39ce11c384b04c9b0732357e.png</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/02/de/7202355766de41cae67fcc5bcfec0c54.png</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/02/fd/6b020d27effd049b1e9a206ee65c4c26.png</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/03/03/c103d0881f0364a28f0a8aab0f918553.png</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/03/1e/eb03e5f6c21e76c17e4b96b4a766b8d1.png</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/03/2d/2b0365ff5f2d85fef7977408daceb73d.jpeg</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/03/42/eb03d0df7042f52968b2d6eb62f13040.jpeg</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/03/46/680355f80346e58125e127ece801f5a3.jpeg</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/03/60/71038cc9db609012745f826d42fb4a58.png</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/03/60/ca03298a9760185c0fb2267185c4f8da.png</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/03/61/290373e37261b474a681ff80199c9b87.png</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/03/7b/de03f4d69d7b5cf056e8829b58dfef37.jpeg</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/03/81/b60392f29081f0d6483bf2ba17b2adcf.jpeg</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/03/8b/f6031cd4078b6a1223e5c6bb1f3ab81b.jpeg</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/03/99/980333ecac9917938e38425fdbd36105.png</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/03/9d/52039ce1e69dcd50af07ac4ea963eed2.jpeg</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/03/a7/2503f5cf23a76e6aab35564f32f6f676.jpeg</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/03/bd/c503e79edfbd1f3255ac2eea14295367.png</item>-->
+        <!--<item>http://static.gaoshouyou.com/i/03/c8/68035df9efc8810f3e10cb8f42261816.png</item>-->
+    </string-array>
+
+    <string-array name="test_game_img_url">
+        <item>http://static.gaoshouyou.com/i/17/36/8217d7b78b367c75ace5ab666d6fbbc2.jpg</item>
+        <item>http://static.gaoshouyou.com/i/34/f5/6434d0b906f51b456aa9105b0444fad2.jpg</item>
+        <item>http://static.gaoshouyou.com/i/5f/2e/a25f1ef8e82e90bab99d4e7a8a5394de.jpg</item>
+        <item>http://static.gaoshouyou.com/i/38/f8/1338061a10f8abe90e1feca2f100c5b7.jpg</item>
+        <item>http://static.gaoshouyou.com/i/c0/2a/efc0999bed2ac51de7e46f1a402c4da0.jpg</item>
+        <item>http://static.gaoshouyou.com/i/ce/31/83ceb36b5331301c873bb16a7409e269.jpg</item>
+        <item>http://static.gaoshouyou.com/i/94/32/b794d9e13b32ed1359f6ce1ead7fb4bf.jpg</item>
+    </string-array>
+
+    <string-array name="test_game_v_img_url">
+        <item>http://static.gaoshouyou.com/i/e8/e6/97e8fda214e678709eca90b92f0653be.jpg</item>
+        <item>http://static.gaoshouyou.com/i/76/79/05760f5a6b791a388ae0bd4d09b8242e.jpg</item>
+        <item>http://static.gaoshouyou.com/i/89/34/17896fa1cb345c133190a5d9226d5b4f.jpg</item>
+    </string-array>
+
+</resources>

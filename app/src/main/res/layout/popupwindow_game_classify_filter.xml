@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/game_classify_screen_height"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/top_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/skin_line_color" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/game_classify_screen_height"
+        android:background="@color/skin_white_color"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/margin_v_8"
+        android:paddingLeft="@dimen/margin_h_8"
+        android:paddingRight="@dimen/margin_h_8"
+        android:paddingTop="@dimen/margin_v_8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tag_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="特征"
+                android:textColor="@color/skin_text_black_color"
+                android:textSize="@dimen/text_larger" />
+
+            <com.lyy.ui.group.TagFlowLayout
+                android:id="@+id/tag_flow_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:tfl_drawable="@drawable/skin_selector_filter_tag_bg"
+                app:tfl_interval_x="5dp"
+                app:tfl_text_color_selector="@drawable/skin_selector_filter_tag_text_bg"
+                app:tfl_text_size="@dimen/text_mini" />
+
+            <TextView
+                android:id="@+id/tag_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="特征"
+                android:textColor="@color/skin_text_black_color"
+                android:textSize="@dimen/text_larger" />
+
+            <com.lyy.ui.group.TagFlowLayout
+                android:id="@+id/tag_flow_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:tfl_drawable="@drawable/skin_selector_filter_tag_bg"
+                app:tfl_interval_x="5dp"
+                app:tfl_text_color_selector="@drawable/skin_selector_filter_tag_text_bg"
+                app:tfl_text_size="@dimen/text_mini" />
+
+            <TextView
+                android:id="@+id/tag_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="特征"
+                android:textColor="@color/skin_text_black_color"
+                android:textSize="@dimen/text_larger" />
+
+            <com.lyy.ui.group.TagFlowLayout
+                android:id="@+id/tag_flow_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:tfl_drawable="@drawable/skin_selector_filter_tag_bg"
+                app:tfl_interval_x="5dp"
+                app:tfl_text_color_selector="@drawable/skin_selector_filter_tag_text_bg"
+                app:tfl_text_size="@dimen/text_mini" />
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/skin_line_color" />
+
+    <LinearLayout
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:text="重置"
+            android:textColor="@color/skin_text_black_color" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/skin_line_color" />
+
+        <Button
+            android:id="@+id/complete"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:text="完成"
+            android:textColor="@color/skin_primary_color" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/bottom_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/skin_line_color" />
+
+</LinearLayout>

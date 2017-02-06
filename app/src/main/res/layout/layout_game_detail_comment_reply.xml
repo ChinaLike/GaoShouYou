@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/tool_bar_height"
+    android:layout_alignParentBottom="true"
+    android:background="@color/skin_background_color"
+    android:orientation="vertical">
+
+    <com.lyy.ui.widget.IconEditText
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:height="30dp"
+        android:background="@drawable/bg_comment_et"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:drawablePadding="@dimen/margin_v_4"
+        android:enabled="false"
+        android:hint="我来说两句..."
+        android:textColorHint="@color/skin_text_gray_color"
+        android:textSize="@dimen/text_larger"
+        app:ic_icon_width="30dp" />
+
+    <TextView
+        android:id="@+id/num_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/margin_h_16"
+        android:gravity="center"
+        android:text="已有两条评论"
+        android:textColor="@color/skin_text_gray_color"
+        android:textSize="@dimen/text_larger" />
+
+    <View
+        android:id="@+id/temp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

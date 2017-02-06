@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--设置界面switch控件属性-->
+    <declare-styleable name="SettingSwitchInfo">
+        <attr name="ss_title" format="string" />
+        <attr name="ss_value" format="string" />
+        <attr name="ss_isOn" format="boolean" />
+    </declare-styleable>
+    <!--设置界面普通消息属性-->
+    <declare-styleable name="SettingNormalInfo">
+        <attr name="sn_title" format="string" />
+        <attr name="sn_value" format="string" />
+    </declare-styleable>
+
+    <!--简单ToolBar-->
+    <declare-styleable name="MyToolBar">
+        <attr name="mt_title" format="string" />
+        <attr name="mt_left_icon" format="reference" />
+        <attr name="mt_right_text" format="string" />
+        <attr name="mt_right_icon" format="reference" />
+    </declare-styleable>
+
+    <!--图标和字体的Item-->
+    <declare-styleable name="IconTextItem">
+        <attr name="it_text" format="string" />
+        <attr name="it_img" format="reference" />
+    </declare-styleable>
+
+    <!--排行三角形-->
+    <declare-styleable name="TriangleView">
+        <attr name="rt_triangle_color" format="color" />
+    </declare-styleable>
+
+    <!--下载数量小圆点-->
+    <declare-styleable name="RedDotLayout">
+        <attr name="rd_color" format="color" />
+        <attr name="rd_radius" format="dimension" />
+        <attr name="rd_text" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="MyBehavior">
+        <attr name="target" format="reference" />
+    </declare-styleable>
+</resources>

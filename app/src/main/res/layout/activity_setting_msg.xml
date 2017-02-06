@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F6F6F8"
+        android:orientation="vertical">
+
+        <com.touchrom.gaoshouyou.widget.MyToolBar
+            android:id="@+id/bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:mt_title="消息设置" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/setting_msg_hint"
+                android:textColor="#B0B0B2"
+                android:textSize="@dimen/text_mini" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/skin_line_color" />
+
+            <com.touchrom.gaoshouyou.widget.SettingSwitchInfo
+                android:id="@+id/update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:ss_title="@string/setting_msg_update_title"
+                app:ss_value="@string/setting_msg_update_value" />
+
+            <com.touchrom.gaoshouyou.widget.SettingSwitchInfo
+                android:id="@+id/system"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:ss_title="@string/setting_msg_system_title"
+                app:ss_value="@string/setting_msg_system_value" />
+
+            <com.touchrom.gaoshouyou.widget.SettingSwitchInfo
+                android:id="@+id/notice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:ss_title="@string/setting_msg_notice_title"
+                app:ss_value="@string/setting_msg_notice_value" />
+
+            <com.touchrom.gaoshouyou.widget.SettingSwitchInfo
+                android:id="@+id/follow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:ss_title="@string/setting_msg_follow_title"
+                app:ss_value="@string/setting_msg_follow_value" />
+
+            <com.touchrom.gaoshouyou.widget.SettingSwitchInfo
+                android:id="@+id/reply"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:ss_title="@string/setting_msg_reply_title"
+                app:ss_value="@string/setting_msg_reply_value" />
+
+            <com.touchrom.gaoshouyou.widget.SettingSwitchInfo
+                android:id="@+id/message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:ss_title="@string/setting_msg_message_title"
+                app:ss_value="@string/setting_msg_message_value" />
+
+            <com.touchrom.gaoshouyou.widget.SettingSwitchInfo
+                android:id="@+id/gift"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:ss_title="@string/setting_msg_gift_title"
+                app:ss_value="@string/setting_msg_gift_value" />
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

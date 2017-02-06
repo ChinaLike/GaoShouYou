@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/skin_selector_item_bg"
+    android:paddingBottom="@dimen/margin_h_8"
+    android:paddingLeft="@dimen/margin_h_16"
+    android:paddingRight="@dimen/margin_h_16"
+    android:paddingTop="@dimen/margin_h_8">
+
+    <TextView
+        android:id="@+id/gift_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/arrow"
+        android:text="礼包名字"
+        android:textColor="@color/skin_text_black_color"
+        android:textSize="@dimen/text_larger" />
+
+    <ImageView
+        android:id="@id/arrow"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/icon_right_arrow" />
+
+</RelativeLayout>

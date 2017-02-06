@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setting_flow">省流量设置</string>
+    <string name="setting_install">安装设置</string>
+    <string name="setting_msg">消息设置</string>
+    <string name="setting_other">其它</string>
+    <string name="setting_msg_hint">关闭后将无法收到最新消息提醒</string>
+    <!--省流量设置-->
+    <string name="setting_img_title">始终显示图片</string>
+    <string name="setting_img_value">是否始终加载显示图片，关闭此项可节省流量</string>
+    <string name="setting_download_title">下载重试</string>
+    <string name="setting_download_value">下载中断是否自动重试，关闭此项可节省流量</string>
+    <string name="setting_auto_download_new_app_title">自动预下载</string>
+    <string name="setting_auto_download_new_app_value">wifi链接下是否自动预先下载更新安装包</string>
+    <!--安装设置-->
+    <string name="setting_auto_install_apk_title">自动开启安装</string>
+    <string name="setting_auto_install_apk_value">下载完成后自动打开安装程序</string>
+    <string name="setting_auto_delete_apk_title">安装后删除安装包</string>
+    <string name="setting_auto_delete_apk_value">安装完成后，自动删除安装包文件</string>
+    <string name="setting_quickly_handle_apk_title">快速安装及卸载</string>
+    <string name="setting_quickly_handle_apk_value">安装和卸载应用无需再次确认，需要root权限</string>
+    <string name="setting_apk_location_title">安装包存储位置</string>
+    <string name="setting_apk_location_value">内置存储卡</string>
+    <!--消息设置-->
+    <string name="setting_msg_title">消息提醒设置</string>
+    <string name="setting_msg_value_test">更新、系统、公告、关注、回复、留言</string>
+    <!--其它-->
+    <string name="setting_check_update_title">升级检查</string>
+    <string name="setting_check_update_value_test">上次检查时间 2015–11–26 12:00</string>
+    <string name="setting_clean_cache_title">清除缓存</string>
+    <string name="setting_clean_cache_value">缓存大小：0M</string>
+    <string name="setting_check_feedback_title">意见反馈</string>
+    <string name="setting_check_feedback_value_test">欢迎提出您的意见和建议</string>
+    <string name="setting_check_about_title">关于</string>
+    <string name="setting_check_about_value_test">当前版本 v1.0.0</string>
+
+    <!--存储位置-->
+    <string name="setting_dialog_location_title">选择安装包存储位置</string>
+    <string name="setting_dialog_location_item_1">内置内存</string>
+    <string name="setting_dialog_location_item_2">外置存储卡</string>
+    <string name="setting_dialog_location_enter">确认</string>
+    <string name="setting_dialog_location_cancel">取消</string>
+
+    <!--推送消息的-->
+    <string name="setting_msg_update_title">更新通知</string>
+    <string name="setting_msg_update_value">已安装游戏有新版本时，将提示更新</string>
+
+    <string name="setting_msg_system_title">系统消息</string>
+    <string name="setting_msg_system_value">系统推荐、账号相关通知消息</string>
+
+    <string name="setting_msg_notice_title">公告</string>
+    <string name="setting_msg_notice_value">公告信息</string>
+
+    <string name="setting_msg_follow_title">关注提示</string>
+    <string name="setting_msg_follow_value">有最新关注信息时，将进行提示</string>
+
+    <string name="setting_msg_reply_title">回复通知</string>
+    <string name="setting_msg_reply_value">评论收到回复通知</string>
+
+    <string name="setting_msg_message_title">留言提醒</string>
+    <string name="setting_msg_message_value">个人主页留言提醒</string>
+
+    <string name="setting_msg_gift_title">礼包预定</string>
+    <string name="setting_msg_gift_value">已预定礼包提前抢号提醒</string>
+
+    <!--反馈意见-->
+    <string name="setting_feedback_hint">亲，留下您对高手游客户端的优化意见，我们将为您不断改进哦！\n
+        咨询、求助等问题请直接拨打客服热线：028-85610706</string>
+    <string name="setting_feedback_contact">联系方式（邮箱、手机号码或QQ）</string>
+
+    <!--关于页面的-->
+    <string name="setting_about_show">高手游，让游戏更好玩</string>
+    <string name="setting_about_gsy_title">官方网址</string>
+    <string name="setting_about_gsy_value">http://www.gaoshouyou.com</string>
+    <string name="setting_about_weibo_title">官方微博</string>
+    <string name="setting_about_weibo_value">\@高手游游戏中心</string>
+    <string name="setting_about_qq_title">交流QQ群</string>
+    <string name="setting_about_qq_value">27971222</string>
+    <string name="setting_about_weixin_title">微信公众号</string>
+    <string name="setting_about_weixin_value">gaoshouyou</string>
+    <string name="setting_about_use_server_agreement_title">用户协议</string>
+    <string name="setting_about_use_server_agreement_value">高手游用户协议</string>
+    <string name="setting_about_duty_rule_url_title">免责声明</string>
+    <string name="setting_about_duty_rule_url_value">高手游免责声明</string>
+</resources>

@@ -1,0 +1,41 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="margin_h_16">16dp</dimen>
+    <dimen name="margin_h_8">8dp</dimen>
+    <dimen name="margin_v_16">16dp</dimen>
+    <dimen name="margin_v_8">8dp</dimen>
+    <dimen name="margin_v_4">4dp</dimen>
+
+    <dimen name="text_larger">16sp</dimen>
+    <dimen name="text_medium">14sp</dimen>
+    <dimen name="text_mini">12sp</dimen>
+
+    <dimen name="dialog_title">50dp</dimen>
+    <dimen name="dialog_mini_width">320dp</dimen>
+
+    <dimen name="setting_switch_info_padding">8dp</dimen>
+    <dimen name="setting_switch_info_height">54dp</dimen>
+
+    <dimen name="game_recommend_height">80dp</dimen>    <!--首页游戏推荐广告高度-->
+    <dimen name="game_game_info_height">105dp</dimen>   <!--游戏简介高度-->
+    <dimen name="game_game_img_height">150dp</dimen>    <!--图片高度-->
+    <dimen name="game_game_classify_height">82dp</dimen> <!--分类item高度-->
+    <dimen name="game_classify_type_height">200dp</dimen>   <!--游戏分类类型选择悬浮框高度-->
+    <dimen name="game_classify_screen_height">350dp</dimen>   <!--游戏分类筛选悬浮框高度-->
+    <dimen name="game_detail_head_height">128dp</dimen>   <!--游戏详情页面头高度-->
+    <dimen name="game_detail_head_img_height">200dp</dimen> <!--游戏详情头部图片高度-->
+    <dimen name="game_detail_center_height">15dp</dimen> <!--游戏详情中间部分距离toolbar高度-->
+    <dimen name="game_detail_head_indicator_height">30dp</dimen> <!--游戏详情指示器高度-->
+    <dimen name="game_detail_head_img_vp_height">300dp</dimen>  <!--游戏详情图片Viewpager高度-->
+    <dimen name="navigation_top_icon_size">27dp</dimen>         <!--导航栏图标大小-->
+    <dimen name="tool_bar_height">50dp</dimen>          <!--工具栏高度-->
+    <dimen name="tab_bar_height">50dp</dimen>           <!--tab高度-->
+    <dimen name="login_item_height">40dp</dimen>           <!--tab高度-->
+    <dimen name="banner_height">192dp</dimen>
+    <dimen name="item_img_w_h">80dp</dimen>
+
+</resources>

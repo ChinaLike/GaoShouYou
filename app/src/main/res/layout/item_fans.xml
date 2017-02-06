@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/skin_selector_item_bg"
+    android:descendantFocusability="blocksDescendants"
+    android:padding="@dimen/margin_h_16">
+
+    <com.lyy.ui.widget.CircleImageView
+        android:id="@+id/user_img"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/default_icon" />
+
+    <TextView
+        android:id="@+id/nike_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/user_img"
+        android:layout_marginLeft="@dimen/margin_h_8"
+        android:layout_marginRight="@dimen/margin_h_8"
+        android:layout_marginTop="@dimen/margin_h_8"
+        android:layout_toLeftOf="@+id/bt"
+        android:layout_toRightOf="@+id/user_img"
+        android:text="昵称"
+        android:textColor="@color/skin_black_color"
+        android:textSize="@dimen/text_larger" />
+
+    <TextView
+        android:id="@+id/sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nike_name"
+        android:layout_alignRight="@+id/nike_name"
+        android:layout_below="@+id/nike_name"
+        android:text="个性签名"
+        android:textColor="@color/skin_text_gray_color"
+        android:textSize="@dimen/text_mini" />
+
+    <TextView
+        android:id="@+id/cancel_follow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/nike_name"
+        android:layout_marginRight="@dimen/margin_h_8"
+        android:text="取消关注"
+        android:textColor="@drawable/selector_blue_gray_text_bg"
+        android:textSize="@dimen/text_mini" />
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/selector_apk_orange_bt"
+        android:onClick="onClick"
+        android:text="关注"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_medium" />
+
+</RelativeLayout>

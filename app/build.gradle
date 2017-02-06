@@ -1,0 +1,72 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.touchrom.gaoshouyou"
+        minSdkVersion 11
+        targetSdkVersion 23
+        versionCode 99
+        versionName "1.0.1_beta"
+    }
+
+    signingConfigs {
+//        debug {
+//            storeFile file("E:/keystore/SDK.jks")
+//        }
+        relealse {
+            storeFile file('E:/keystore/GaoShouYou.jks')
+            storePassword 'laoyuyu789'
+            keyAlias 'gaoshouyou'
+            keyPassword '860536017'
+        }
+    }
+
+    buildTypes {
+        release {
+            // 不显示Log
+            buildConfigField "boolean", "LOG_DEBUG", "false"
+            signingConfig signingConfigs.relealse
+            //混淆
+            minifyEnabled true
+            //Zipalign优化
+            zipAlignEnabled true
+            // 移除无用的resource文件
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    dataBinding {
+        enabled = true
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:design:23.1.1'
+    compile 'com.android.support:palette-v7:23.1.1'
+    compile 'com.umeng.analytics:analytics:latest.integration'
+    compile 'com.arialyy.downloadutil:DownloadUtil:1.0.0'
+    compile 'io.reactivex:rxandroid:1.0.1'
+    compile 'io.reactivex:rxjava:1.0.16'
+    compile 'com.github.bumptech.glide:glide:3.5.2'
+    compile project(':ui')
+    compile files('lib/MobCommons.jar')
+    compile files('lib/ShareSDK-Core-2.6.5.jar')
+    compile files('lib/ShareSDK-QQ-2.6.5.jar')
+    compile files('lib/ShareSDK-QZone-2.6.5.jar')
+    compile files('lib/ShareSDK-SinaWeibo-2.6.5.jar')
+    compile files('lib/ShareSDK-Wechat-2.6.5.jar')
+    compile files('lib/ShareSDK-Wechat-Core-2.6.5.jar')
+    compile files('lib/ShareSDK-Wechat-Favorite-2.6.5.jar')
+    compile files('lib/ShareSDK-Wechat-Moments-2.6.5.jar')
+    compile files('lib/GetuiExt-2.0.3.jar')
+    compile files('lib/MobTools.jar')
+    compile files('lib/GetuiSDK2.8.1.0.jar')
+    compile files('lib/zbardecoder.jar')
+    compile project(':frame')
+}

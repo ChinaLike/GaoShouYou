@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/skin_selector_item_bg"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_gray_divider" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_h_16">
+
+        <ImageView
+            android:id="@+id/game_icon"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@mipmap/default_icon" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_h_8"
+            android:layout_toLeftOf="@+id/bt"
+            android:layout_toRightOf="@+id/game_icon"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="标题"
+            android:textColor="@color/skin_black_color"
+            android:textSize="@dimen/text_larger" />
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/game_icon"
+            android:layout_alignLeft="@+id/title"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="礼包内容"
+            android:textColor="@color/skin_text_gray_color"
+            android:textSize="@dimen/text_medium" />
+
+        <Button
+            android:id="@+id/bt"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/selector_apk_orange_bt"
+            android:onClick="onClick"
+            android:text="抢号"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_larger" />
+    </RelativeLayout>
+</LinearLayout>

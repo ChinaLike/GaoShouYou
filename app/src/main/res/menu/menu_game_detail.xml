@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/create_new"
+        android:name="item_1"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/open"
+        android:name="item_2"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/help"
+        android:icon="@mipmap/ic_launcher"
+        android:name="help"
+        app:showAsAction="ifRoom|withText" />
+</menu>

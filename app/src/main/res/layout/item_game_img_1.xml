@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ad_img"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/game_game_img_height"
+    android:scaleType="fitXY"
+    android:src="@mipmap/default_ad" />

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/skin_background_color">
+
+    <EditText
+        android:id="@+id/account"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_item_height"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/bg_login_et"
+        android:hint="账号：用户名/手机号/邮箱"
+        android:paddingLeft="@dimen/margin_v_16"
+        android:paddingRight="@dimen/margin_h_16"
+        android:textColor="@color/skin_text_black_color"
+        android:textColorHint="@color/skin_text_gray_color_dark" />
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_item_height"
+        android:layout_alignLeft="@+id/account"
+        android:layout_alignRight="@+id/account"
+        android:layout_below="@+id/account"
+        android:layout_marginTop="@dimen/margin_h_8"
+        android:background="@drawable/bg_login_et">
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_item_height"
+            android:layout_toLeftOf="@+id/toggle"
+            android:background="@color/transparent"
+            android:hint="密码：6-20位密码"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:paddingLeft="@dimen/margin_v_16"
+            android:paddingRight="@dimen/margin_v_16"
+            android:textColor="@color/skin_text_black_color"
+            android:textColorHint="@color/skin_text_gray_color_dark" />
+
+        <com.lyy.ui.widget.MyToggleButton
+            android:id="@+id/toggle"
+            android:layout_width="48dp"
+            android:layout_height="24dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/setting_switch_info_padding"
+            app:tb_offColor="#DDDDDD"
+            app:tb_onColor="#0DC6C8"
+            app:tb_spotColor="#FFFFFF" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/login_bt"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_item_height"
+        android:layout_alignLeft="@+id/account"
+        android:layout_alignRight="@+id/account"
+        android:layout_below="@+id/rl"
+        android:layout_marginTop="@dimen/margin_h_16"
+        android:background="@drawable/selector_login_bt"
+        android:text="登录"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_larger" />
+
+    <TextView
+        android:id="@+id/reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/account"
+        android:layout_below="@+id/login_bt"
+        android:layout_marginTop="@dimen/margin_v_16"
+        android:text="快速注册"
+        android:textColor="@drawable/selector_blue_gray_text_bg"
+        android:textSize="@dimen/text_larger" />
+
+    <TextView
+        android:id="@+id/forget_pw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/account"
+        android:layout_alignTop="@+id/reg"
+        android:text="忘记密码"
+        android:textColor="@drawable/selector_blue_gray_text_bg"
+        android:textSize="@dimen/text_larger" />
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/setting_switch_info_height"
+    android:background="@color/skin_background_color">
+
+    <View
+        android:id="@+id/temp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#11000000"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/left_line"
+        android:layout_width="1dp"
+        android:layout_height="@dimen/setting_switch_info_height"
+        android:layout_alignParentLeft="true"
+        android:background="@color/skin_line_color" />
+
+    <View
+        android:id="@+id/right_line"
+        android:layout_width="1dp"
+        android:layout_height="@dimen/setting_switch_info_height"
+        android:layout_alignParentRight="true"
+        android:background="@color/skin_line_color" />
+
+    <View
+        android:id="@+id/bottom_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/skin_line_color" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/setting_switch_info_padding"
+        android:layout_marginRight="@dimen/setting_switch_info_padding"
+        android:layout_marginTop="@dimen/setting_switch_info_padding"
+        android:text="标题"
+        android:textColor="@color/skin_text_black_color"
+        android:textSize="@dimen/text_medium" />
+
+
+    <TextView
+        android:id="@+id/value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginBottom="@dimen/setting_switch_info_padding"
+        android:layout_marginLeft="@dimen/setting_switch_info_padding"
+        android:layout_marginRight="@dimen/setting_switch_info_padding"
+        android:text="值"
+        android:textColor="@color/skin_text_gray_color"
+        android:textSize="@dimen/text_mini" />
+
+    <!--app:tb_onColor="#DDDDDD"-->
+    <!--app:tb_offColor="#0DC6C8"-->
+    <com.lyy.ui.widget.MyToggleButton
+        android:id="@+id/toggle"
+        android:layout_width="48dp"
+        android:layout_height="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/setting_switch_info_padding"
+        app:tb_offColor="#DDDDDD"
+        app:tb_onColor="#0DC6C8"
+        app:tb_spotColor="#FFFFFF" />
+
+</RelativeLayout>

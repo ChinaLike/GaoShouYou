@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/margin_h_8"
+    android:paddingLeft="@dimen/margin_h_16"
+    android:paddingRight="@dimen/margin_h_16"
+    android:paddingTop="@dimen/margin_h_8">
+
+    <TextView
+        android:id="@+id/code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="@dimen/margin_h_8"
+        android:layout_toLeftOf="@+id/bt"
+        android:text="激活码"
+        android:textColor="@color/skin_black_color"
+        android:textSize="@dimen/text_medium" />
+
+    <TextView
+        android:id="@+id/hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/code"
+        android:layout_below="@+id/code"
+        android:layout_marginRight="@dimen/margin_h_8"
+        android:layout_toLeftOf="@+id/bt"
+        android:text="hint"
+        android:textColor="@color/skin_text_gray_color"
+        android:textSize="@dimen/text_mini" />
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/selector_green_bt"
+        android:onClick="onClick"
+        android:text="复制"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_larger" />
+
+</RelativeLayout>

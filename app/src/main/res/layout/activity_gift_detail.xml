@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="gift"
+            type="com.touchrom.gaoshouyou.entity.GiftEntity" />
+
+        <variable
+            name="num"
+            type="CharSequence" />
+
+        <variable
+            name="title"
+            type="String" />
+
+        <variable
+            name="endTime"
+            type="String" />
+
+        <variable
+            name="gameName"
+            type="String" />
+
+        <variable
+            name="showGrab"
+            type="boolean" />
+    </data>
+
+    <RelativeLayout
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/skin_background_color"
+        android:orientation="vertical">
+
+        <include layout="@layout/layout_bar" />
+
+        <ScrollView
+            android:id="@+id/scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/line"
+            android:layout_below="@+id/bar">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/skin_white_color"
+                    android:padding="@dimen/margin_h_16">
+
+                    <ImageView
+                        android:id="@+id/game_icon"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@mipmap/default_icon" />
+
+                    <TextView
+                        android:id="@+id/title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_h_8"
+                        android:layout_toLeftOf="@+id/bt"
+                        android:layout_toRightOf="@+id/game_icon"
+                        android:ellipsize="end"
+                        android:maxLines="2"
+                        android:text="@{title}"
+                        android:textColor="@color/skin_black_color"
+                        android:textSize="@dimen/text_larger" />
+
+                    <ProgressBar
+                        android:id="@+id/pb"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="150dp"
+                        android:layout_height="8dp"
+                        android:layout_alignBottom="@+id/game_icon"
+                        android:layout_alignLeft="@+id/title"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginRight="@dimen/margin_h_8"
+                        android:progressDrawable="@drawable/bg_gift_bar" />
+
+                    <TextView
+                        android:id="@+id/num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/game_icon"
+                        android:layout_toRightOf="@+id/pb"
+                        android:text="@{num}"
+                        android:textColor="@color/skin_text_gray_color"
+                        android:textSize="@dimen/text_medium"
+                        android:visibility="@{showGrab?View.VISIBLE:View.INVISIBLE}" />
+
+                    <TextView
+                        android:id="@+id/num1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/game_icon"
+                        android:layout_alignLeft="@+id/title"
+                        android:layout_toRightOf="@+id/pb"
+                        android:text="@{num}"
+                        android:textColor="@color/skin_text_gray_color"
+                        android:textSize="@dimen/text_medium"
+                        android:visibility="@{showGrab ? View.INVISIBLE : View.VISIBLE}" />
+
+                    <Button
+                        android:id="@+id/bt"
+                        android:layout_width="60dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/selector_apk_orange_bt"
+                        android:onClick="onClick"
+                        android:text="抢号"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_larger" />
+                </RelativeLayout>
+
+                <TextView
+                    style="@style/GiftHintStyle"
+                    android:text="领取时间" />
+
+                <TextView
+                    android:id="@+id/time"
+                    style="@style/GiftContentStyle"
+                    android:text="@{gift.time}" />
+
+                <TextView
+                    style="@style/GiftHintStyle"
+                    android:text="领取条件" />
+
+                <TextView
+                    android:id="@+id/condition"
+                    style="@style/GiftContentStyle"
+                    android:text="@{gift.condition}" />
+
+                <TextView
+                    style="@style/GiftHintStyle"
+                    android:text="礼包内容" />
+
+                <TextView
+                    android:id="@+id/content"
+                    style="@style/GiftContentStyle"
+                    android:text="@{gift.giftContent}" />
+
+                <TextView
+                    style="@style/GiftHintStyle"
+                    android:text="使用方法" />
+
+                <TextView
+                    android:id="@+id/method"
+                    style="@style/GiftContentStyle"
+                    android:text="@{gift.useMethod}" />
+
+                <TextView
+                    android:id="@+id/end_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/skin_white_color"
+                    android:paddingLeft="@dimen/margin_h_16"
+                    android:text="@{endTime}"
+                    android:textColor="@color/skin_text_black_color"
+                    android:textSize="@dimen/text_mini" />
+
+                <TextView
+                    android:id="@+id/game_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/skin_white_color"
+                    android:paddingBottom="@dimen/margin_h_8"
+                    android:paddingLeft="@dimen/margin_h_16"
+                    android:paddingTop="2dp"
+                    android:text="@{gameName}"
+                    android:textColor="@color/skin_text_black_color"
+                    android:textSize="@dimen/text_mini" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_h_8"
+                    android:background="@color/skin_white_color"
+                    android:paddingBottom="@dimen/margin_h_8"
+                    android:paddingLeft="@dimen/margin_h_16"
+                    android:paddingRight="@dimen/margin_h_16"
+                    android:paddingTop="@dimen/margin_h_8">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="相关礼包"
+                        android:textColor="@color/skin_black_color"
+                        android:textSize="@dimen/text_larger" />
+
+                    <TextView
+                        android:id="@+id/more"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:onClick="onClick"
+                        android:text="更多"
+                        android:textColor="@drawable/selector_blue_gray_text_bg" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/skin_line_color" />
+
+                <com.lyy.ui.widget.NoScrollListView
+                    android:id="@id/list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@color/skin_line_color"
+                    android:dividerHeight="1dp"
+                    android:listSelector="@color/transparent" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_above="@+id/game_detail"
+            android:background="@color/skin_line_color" />
+
+        <Button
+            android:id="@+id/game_detail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/selector_green_bt"
+            android:onClick="onClick"
+            android:text="游戏详情"
+            android:textColor="@color/skin_white_color"
+            android:textSize="@dimen/text_larger" />
+
+        <include layout="@layout/layout_temp_view" />
+
+    </RelativeLayout>
+</layout>

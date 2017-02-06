@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/layout_bar" />
+
+        <TextView
+            android:id="@+id/bar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/tab_bar_height"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textColor="@color/skin_white_color"
+            android:textSize="@dimen/text_larger" />
+
+        <ScrollView
+            android:layout_above="@+id/bottom_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bar">
+
+            <include
+                layout="@layout/item_comment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </ScrollView>
+
+        <RelativeLayout
+            android:id="@+id/bottom_bar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tab_bar_height"
+            android:layout_alignParentBottom="true"
+            android:background="@color/skin_white_color">
+
+            <EditText
+                android:id="@+id/send_et"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_margin="5dp"
+                android:layout_toLeftOf="@+id/send_bt"
+                android:background="@drawable/bg_comment_et"
+                android:hint="我来说一句..."
+                android:paddingLeft="@dimen/margin_h_8"
+                android:paddingRight="@dimen/margin_h_8"
+                android:textColor="@color/skin_black_color"
+                android:textColorHint="@color/skin_text_gray_color" />
+
+            <Button
+                android:onClick="onClick"
+                android:id="@+id/send_bt"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/selector_white_gray"
+                android:gravity="center"
+                android:text="发送"
+                android:textColor="@color/skin_black_color" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</layout>

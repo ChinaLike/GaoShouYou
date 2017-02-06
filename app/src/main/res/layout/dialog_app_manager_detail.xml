@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="title"
+            type="String" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#70000000"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_h_16">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@{title}"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_larger" />
+
+        <Button
+            android:id="@+id/first_bt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_v_16"
+            android:background="@drawable/selector_app_manager_delete_bt"
+            android:text="删除"
+            android:textColor="@color/orange"
+            android:textSize="@dimen/text_larger" />
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_v_8"
+            android:background="@drawable/selector_green_bt"
+            android:text="取消"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_larger" />
+    </LinearLayout>
+</layout>

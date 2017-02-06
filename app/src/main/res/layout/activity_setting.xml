@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+        <!--<com.touchrom.gaoshouyou.widget.MyToolBar-->
+        <!--android:id="@+id/bar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:mt_title="应用设置" />-->
+
+        <include layout="@layout/layout_bar" />
+
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/skin_background_color"
+            android:paddingBottom="8dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/setting_flow"
+                    android:textColor="#B0B0B2"
+                    android:textSize="@dimen/text_mini" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/skin_line_color" />
+
+                <com.touchrom.gaoshouyou.widget.SettingSwitchInfo
+                    android:id="@+id/show_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:ss_isOn="true"
+                    app:ss_title="@string/setting_img_title"
+                    app:ss_value="@string/setting_img_value" />
+
+                <com.touchrom.gaoshouyou.widget.SettingSwitchInfo
+                    android:id="@+id/download_again"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:ss_title="@string/setting_download_title"
+                    app:ss_value="@string/setting_download_value" />
+
+                <com.touchrom.gaoshouyou.widget.SettingSwitchInfo
+                    android:id="@+id/auto_download_new_apk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:ss_isOn="true"
+                    app:ss_title="@string/setting_auto_download_new_app_title"
+                    app:ss_value="@string/setting_auto_download_new_app_value" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/setting_install"
+                    android:textColor="#B0B0B2"
+                    android:textSize="@dimen/text_mini" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/skin_line_color" />
+
+                <com.touchrom.gaoshouyou.widget.SettingSwitchInfo
+                    android:id="@+id/auto_install_apk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:ss_title="@string/setting_auto_install_apk_title"
+                    app:ss_value="@string/setting_auto_install_apk_value" />
+
+                <com.touchrom.gaoshouyou.widget.SettingSwitchInfo
+                    android:id="@+id/auto_delete_apk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:ss_title="@string/setting_auto_delete_apk_title"
+                    app:ss_value="@string/setting_auto_delete_apk_value" />
+
+                <com.touchrom.gaoshouyou.widget.SettingSwitchInfo
+                    android:id="@+id/quickly_handle_apk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:ss_isOn="true"
+                    app:ss_title="@string/setting_quickly_handle_apk_title"
+                    app:ss_value="@string/setting_quickly_handle_apk_value" />
+
+                <com.touchrom.gaoshouyou.widget.SettingNormalInfo
+                    android:id="@+id/apk_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    app:sn_title="@string/setting_apk_location_title"
+                    app:sn_value="@string/setting_apk_location_value" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/setting_msg"
+                    android:textColor="#B0B0B2"
+                    android:textSize="@dimen/text_mini"
+                    android:visibility="gone" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/skin_line_color"
+                    android:visibility="gone" />
+
+                <com.touchrom.gaoshouyou.widget.SettingNormalInfo
+                    android:id="@+id/msg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:visibility="visible"
+                    app:sn_title="@string/setting_msg_title"
+                    app:sn_value="@string/setting_msg_value_test" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/setting_other"
+                    android:textColor="#B0B0B2"
+                    android:textSize="@dimen/text_mini" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/skin_line_color" />
+
+                <com.touchrom.gaoshouyou.widget.SettingNormalInfo
+                    android:id="@+id/other"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    app:sn_title="@string/setting_check_update_title"
+                    app:sn_value="@string/setting_check_update_value_test" />
+
+                <com.touchrom.gaoshouyou.widget.SettingNormalInfo
+                    android:id="@+id/clean_cache"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    app:sn_value="@string/setting_clean_cache_value"
+                    app:sn_title="@string/setting_clean_cache_title" />
+
+                <com.touchrom.gaoshouyou.widget.SettingNormalInfo
+                    android:id="@+id/feedback"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    app:sn_title="@string/setting_check_feedback_title"
+                    app:sn_value="@string/setting_check_feedback_value_test" />
+
+                <com.touchrom.gaoshouyou.widget.SettingNormalInfo
+                    android:id="@+id/about"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    app:sn_title="@string/setting_check_about_title"
+                    app:sn_value="@string/setting_check_about_value_test" />
+
+            </LinearLayout>
+
+
+        </android.support.v4.widget.NestedScrollView>
+    </LinearLayout>
+</layout>

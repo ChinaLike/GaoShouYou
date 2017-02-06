@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?><!--<com.lyy.ui.group.MaterialRippleLayout xmlns:android="http://schemas.android.com/apk/res/android"--><!--xmlns:app="http://schemas.android.com/apk/res-auto"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--style="@style/RippleLayoutStyle">-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/game_game_classify_height"
+    android:background="@drawable/skin_selector_item_bg">
+
+    <View
+        android:id="@+id/right_line"
+        android:layout_width="1dp"
+        android:layout_height="@dimen/game_game_classify_height"
+        android:layout_alignParentRight="true"
+        android:background="@color/skin_line_color" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/skin_line_color" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/right_line"
+        android:padding="@dimen/margin_h_16">
+
+        <com.lyy.ui.widget.CircleImageView
+            android:id="@+id/img"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/default_icon" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_v_8"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@+id/img"
+            android:text="角色扮演"
+            android:textColor="@color/skin_text_black_color"
+            android:textSize="@dimen/text_larger" />
+
+        <TextView
+            android:id="@+id/num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/name"
+            android:layout_below="@+id/name"
+            android:text="(65535)"
+            android:textColor="@color/skin_text_gray_color"
+            android:textSize="@dimen/text_medium" />
+
+
+    </RelativeLayout>
+</RelativeLayout><!--</com.lyy.ui.group.MaterialRippleLayout>-->

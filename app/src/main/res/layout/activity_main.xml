@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/skin_background_color"
+        android:fitsSystemWindows="true">
+
+        <RelativeLayout
+            android:id="@+id/main_bar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/skin_primary_color">
+
+            <ImageView
+                android:id="@+id/scan_zxing"
+                style="@style/BarImgStyle"
+                android:layout_alignParentLeft="true"
+                android:onClick="onClick"
+                android:src="@mipmap/icon_setting_white" />
+
+            <RelativeLayout
+                android:id="@+id/level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true">
+
+                <TextView
+                    android:id="@+id/leave_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/yellow"
+                    android:paddingLeft="1dp"
+                    android:paddingRight="1dp"
+                    android:text="Lv1"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_medium" />
+
+                <TextView
+                    android:id="@+id/leave_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_toRightOf="@+id/leave_num"
+                    android:text="菜鸟求带"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_medium" />
+            </RelativeLayout>
+
+            <com.lyy.ui.widget.IconEditText
+                android:id="@+id/search_et"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="@dimen/margin_v_8"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="@dimen/margin_v_8"
+                android:layout_toLeftOf="@+id/download"
+                android:layout_toRightOf="@+id/scan_zxing"
+                android:background="@drawable/bg_sercher_round"
+                android:clickable="false"
+                android:drawableLeft="@mipmap/icon_search"
+                android:enabled="false"
+                android:gravity="center"
+                app:ic_icon_height="25dp"
+                app:ic_icon_width="25dp" />
+
+            <View
+                android:id="@+id/search"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/download"
+                android:layout_toRightOf="@+id/scan_zxing"
+                android:onClick="onClick" />
+
+
+            <ImageView
+                android:id="@+id/download"
+                style="@style/BarImgStyle"
+                android:layout_alignParentRight="true"
+                android:onClick="onClick"
+                android:src="@mipmap/icon_download" />
+
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/line"
+            android:layout_below="@+id/main_bar" />
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_above="@+id/navigation"
+            android:background="@color/skin_line_color"
+            android:visibility="gone" />
+
+        <RadioGroup
+            android:id="@+id/navigation"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <!--android:drawableTop="@mipmap/ic_launcher"-->
+            <!--top的图片直接设置选择器的了，选择器状态state-->
+            <RadioButton
+                style="@style/MainRadioButtonStyle"
+                android:tag="0"
+                android:text="游戏" />
+
+            <RadioButton
+                style="@style/MainRadioButtonStyle"
+                android:tag="1"
+                android:text="资讯" />
+
+            <RadioButton
+                style="@style/MainRadioButtonStyle"
+                android:tag="2"
+                android:text="发现" />
+
+            <RadioButton
+                style="@style/MainRadioButtonStyle"
+                android:tag="3"
+                android:text="我的" />
+
+        </RadioGroup>
+
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="version"
+            type="java.lang.String" />
+    </data>
+
+    <RelativeLayout
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/skin_background_color"
+        android:orientation="vertical">
+
+        <include layout="@layout/layout_bar" />
+
+        <RelativeLayout
+            android:id="@+id/show_bg"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_below="@+id/bar"
+            android:background="@color/skin_primary_color">
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/icon"
+                android:layout_centerHorizontal="true"
+                android:text="@string/setting_about_show"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_larger" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/show"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_gray_round"
+                android:paddingBottom="3dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="3dp"
+                android:text="@{version}"
+                android:textColor="@color/skin_setting_about_version_color"
+                android:textSize="@dimen/text_larger" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/tab"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/show_bg"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/welcome"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="欢迎页"
+                android:textColor="@color/skin_text_black_color"
+                android:textSize="@dimen/text_larger" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/skin_line_color" />
+
+            <TextView
+                android:id="@+id/business"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="商务合作"
+                android:textColor="@color/skin_text_black_color"
+                android:textSize="@dimen/text_larger" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/skin_line_color" />
+
+            <TextView
+                android:id="@+id/help"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="帮助中心"
+                android:textColor="@color/skin_text_black_color"
+                android:textSize="@dimen/text_larger" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/tab"
+            android:background="@color/skin_line_color" />
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/skin_line_color" />
+
+                <com.touchrom.gaoshouyou.widget.SettingNormalInfo
+                    android:id="@+id/gsy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="onClick"
+                    app:sn_title="@string/setting_about_gsy_title"
+                    app:sn_value="@string/setting_about_gsy_value" />
+
+                <com.touchrom.gaoshouyou.widget.SettingNormalInfo
+                    android:id="@+id/weibo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="onClick"
+                    app:sn_title="@string/setting_about_weibo_title"
+                    app:sn_value="@string/setting_about_weibo_value" />
+
+                <com.touchrom.gaoshouyou.widget.SettingNormalInfo
+                    android:id="@+id/qq"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="onClick"
+                    app:sn_title="@string/setting_about_qq_title"
+                    app:sn_value="@string/setting_about_qq_value" />
+
+                <com.touchrom.gaoshouyou.widget.SettingNormalInfo
+                    android:id="@+id/weixin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="onClick"
+                    app:sn_title="@string/setting_about_weixin_title"
+                    app:sn_value="@string/setting_about_weixin_value" />
+
+                <com.touchrom.gaoshouyou.widget.SettingNormalInfo
+                    android:id="@+id/use_server_agreement"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="onClick"
+                    app:sn_title="@string/setting_about_use_server_agreement_title"
+                    app:sn_value="@string/setting_about_use_server_agreement_value" />
+
+                <com.touchrom.gaoshouyou.widget.SettingNormalInfo
+                    android:id="@+id/duty_rule_url"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="onClick"
+                    app:sn_title="@string/setting_about_duty_rule_url_title"
+                    app:sn_value="@string/setting_about_duty_rule_url_value" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:text="@string/str_copyright"
+                    android:textColor="@color/skin_text_gray_color"
+                    android:textSize="@dimen/text_mini" />
+
+            </LinearLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+
+    </RelativeLayout>
+</layout>

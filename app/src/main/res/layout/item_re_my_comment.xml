@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/skin_white_color"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_h_16">
+
+    <com.lyy.ui.widget.CircleImageView
+        android:id="@+id/user_img"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/default_icon" />
+
+    <TextView
+        android:id="@+id/nike_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_v_8"
+        android:layout_toRightOf="@+id/user_img"
+        android:paddingTop="@dimen/margin_v_4"
+        android:textColor="@drawable/selector_blue_gray_text_bg"
+        android:textSize="@dimen/text_larger" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nike_name"
+        android:layout_below="@+id/nike_name"
+        android:layout_marginTop="@dimen/margin_v_4"
+        android:textColor="@color/skin_text_gray_color"
+        android:textSize="@dimen/text_medium" />
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nike_name"
+        android:layout_below="@+id/time"
+        android:layout_marginTop="@dimen/margin_h_8"
+        android:background="#F5F6F8"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:padding="@dimen/margin_h_8"
+        android:textColor="@color/skin_text_gray_color"
+        android:textSize="@dimen/text_larger" />
+
+    <com.touchrom.gaoshouyou.widget.MyCommentText
+        android:id="@+id/reply_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/content"
+        android:layout_below="@+id/content"
+        android:layout_marginTop="@dimen/margin_h_8"
+        android:drawablePadding="5dp"
+        android:textColor="@color/skin_black_color"
+        android:textSize="@dimen/text_larger" />
+
+</RelativeLayout>

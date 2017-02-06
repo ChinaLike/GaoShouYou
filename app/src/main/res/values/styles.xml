@@ -1,0 +1,106 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/skin_primary_color</item>
+        <item name="colorPrimaryDark">@color/skin_primary_color</item>
+        <item name="colorAccent">@color/skin_accent_color</item>
+
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--dialog进出动画-->
+    <style name="dialogAnim" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/dialog_enter</item>
+        <item name="@android:windowExitAnimation">@anim/dialog_exit</item>
+    </style>
+
+    <style name="MainRadioButtonStyle">
+        <item name="android:layout_marginTop">3dp</item>
+        <!--<item name="android:textColor">@drawable/selector_main_rb_text</item>-->
+        <!--<item name="android:drawablePadding">2dp</item>-->
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textSize">@dimen/text_mini</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@drawable/selector_main_navigation_text_bg</item>
+    </style>
+
+    <style name="GameRankRadioButtonStyle">
+        <item name="android:textSize">@dimen/text_medium</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_weight">1</item>>
+        <item name="android:background">@drawable/skin_selector_rank_tag_bg</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@drawable/selector_white_gray_text_bg</item>
+    </style>
+
+    <style name="TabLayoutStyle">
+        <item name="tabGravity">fill</item>
+        <item name="tabIndicatorHeight">4dp</item>
+        <!--<item name="tabIndicatorColor">@color/skin_primary_color</item>-->
+        <!--<item name="tabSelectedTextColor">@color/skin_primary_color</item>-->
+        <!--<item name="tabTextColor">@color/skin_text_black_color</item>-->
+    </style>
+
+    <!--水波纹布局风格-->
+    <style name="RippleLayoutStyle">
+        <item name="mrl_rippleAlpha">0.2</item>
+        <item name="mrl_rippleBackground">@color/white</item>
+        <item name="mrl_rippleColor">@color/rippleDefaultColor</item>
+    </style>
+
+    <!--Bar的图标风格-->
+    <style name="BarImgStyle">
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:background">@drawable/selector_bar_transparent</item>
+    </style>
+
+    <style name="GiftHintStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+        <item name="android:paddingTop">@dimen/margin_h_8</item>
+        <item name="android:paddingBottom">@dimen/margin_h_8</item>
+        <item name="android:paddingLeft">@dimen/margin_h_16</item>
+        <item name="android:paddingRight">@dimen/margin_h_16</item>
+        <item name="android:textColor">@color/skin_text_gray_color</item>
+    </style>
+
+    <style name="GiftContentStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+        <item name="android:paddingTop">@dimen/margin_h_8</item>
+        <item name="android:paddingBottom">@dimen/margin_h_8</item>
+        <item name="android:paddingLeft">@dimen/margin_h_16</item>
+        <item name="android:paddingRight">@dimen/margin_h_16</item>
+        <item name="android:textColor">@color/skin_text_black_color</item>
+        <item name="android:background">@color/skin_white_color</item>
+    </style>
+
+
+</resources>

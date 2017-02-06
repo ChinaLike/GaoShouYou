@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="biPath"
+            type="String" />
+
+        <variable
+            name="biSpace"
+            type="String" />
+
+        <variable
+            name="boPath"
+            type="String" />
+
+        <variable
+            name="boSpace"
+            type="String" />
+
+        <variable
+            name="check"
+            type="Boolean" />
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#F7F7F7"
+            android:gravity="center|left"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/setting_dialog_location_title"
+            android:textColor="@color/skin_text_black_color"
+            android:textSize="@dimen/text_larger" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/skin_line_color" />
+
+        <RelativeLayout
+            android:id="@+id/bi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingBottom="4dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="4dp">
+
+            <TextView
+                android:id="@+id/bi_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/setting_dialog_location_item_1"
+                android:textColor="@color/skin_text_black_color"
+                android:textSize="@dimen/text_medium" />
+
+            <TextView
+                android:id="@+id/bi_memory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/bi_title"
+                android:layout_toLeftOf="@+id/bi_rb"
+                android:text="@{biPath}"
+                android:textColor="@color/skin_text_gray_color"
+                android:textSize="@dimen/text_mini" />
+
+            <TextView
+                android:id="@+id/bi_space"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bi_memory"
+                android:text="@{biSpace}"
+                android:textColor="@color/skin_text_gray_color"
+                android:textSize="@dimen/text_mini" />
+
+            <RadioButton
+                android:id="@+id/bi_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/skin_line_color" />
+
+        <RelativeLayout
+            android:id="@+id/bo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingBottom="4dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="4dp">
+
+            <TextView
+                android:id="@+id/bo_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/setting_dialog_location_item_2"
+                android:textColor="@color/skin_text_black_color"
+                android:textSize="@dimen/text_medium" />
+
+            <TextView
+                android:id="@+id/bo_memory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/bo_title"
+                android:layout_toLeftOf="@+id/bo_rb"
+                android:text="@{boPath}"
+                android:textColor="@color/skin_text_gray_color"
+                android:textSize="@dimen/text_mini" />
+
+            <TextView
+                android:id="@+id/bo_space"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bo_memory"
+                android:text="@{boSpace}"
+                android:textColor="@color/skin_text_gray_color"
+                android:textSize="@dimen/text_mini" />
+
+            <RadioButton
+                android:id="@+id/bo_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/skin_line_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/setting_dialog_location_cancel"
+                android:textColor="@color/skin_text_black_color"
+                android:textSize="@dimen/text_larger" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:background="@color/skin_line_color" />
+
+            <Button
+                android:id="@+id/enter"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/setting_dialog_location_enter"
+                android:textColor="@color/skin_text_black_color"
+                android:textSize="@dimen/text_larger" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</layout>

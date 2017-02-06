@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/skin_background_color"
+        android:orientation="vertical">
+
+        <include layout="@layout/layout_bar" />
+
+        <com.lyy.ui.pulltorefresh.PullToRefreshListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/bar"
+            android:divider="@color/transparent"
+            android:dividerHeight="8dp"
+            android:listSelector="@color/transparent" />
+
+        <include layout="@layout/layout_temp_view" />
+
+    </RelativeLayout>
+</layout>

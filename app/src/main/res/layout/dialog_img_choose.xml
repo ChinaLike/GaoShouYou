@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#70000000"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_h_16">
+
+        <Button
+            android:id="@+id/take_photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_app_manager_delete_bt"
+            android:text="拍照"
+            android:textColor="@color/orange"
+            android:textSize="@dimen/text_larger" />
+
+        <Button
+            android:id="@+id/local_photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_v_8"
+            android:background="@drawable/selector_app_manager_delete_bt"
+            android:text="本地图片"
+            android:textColor="@color/orange"
+            android:textSize="@dimen/text_larger" />
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_v_8"
+            android:background="@drawable/selector_green_bt"
+            android:text="取消"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_larger" />
+    </LinearLayout>
+</layout>

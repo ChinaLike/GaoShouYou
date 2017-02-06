@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/tool_bar_height"
+    android:layout_alignParentBottom="true"
+    android:background="@color/skin_background_color">
+
+    <View
+        android:id="@+id/bottom_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/skin_line_color" />
+
+    <ImageView
+        android:id="@+id/like"
+        style="@style/BarImgStyle"
+        android:layout_alignParentLeft="true"
+        android:src="@mipmap/ic_launcher" />
+
+    <Button
+        android:id="@+id/download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp"
+        android:layout_toLeftOf="@+id/share"
+        android:layout_toRightOf="@+id/like"
+        android:background="@drawable/selector_green_bt"
+        android:gravity="center"
+        android:text="立即下载"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_larger" />
+
+    <ImageView
+        android:id="@+id/share"
+        style="@style/BarImgStyle"
+        android:layout_alignParentRight="true"
+        android:src="@mipmap/icon_share_grey" />
+
+</RelativeLayout>

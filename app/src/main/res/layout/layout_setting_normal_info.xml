@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/setting_switch_info_height">
+
+    <View
+        android:id="@+id/left_line"
+        android:layout_width="1dp"
+        android:layout_height="@dimen/setting_switch_info_height"
+        android:layout_alignParentLeft="true"
+        android:background="@color/skin_line_color" />
+
+    <View
+        android:id="@+id/right_line"
+        android:layout_width="1dp"
+        android:layout_height="@dimen/setting_switch_info_height"
+        android:layout_alignParentRight="true"
+        android:background="@color/skin_line_color" />
+
+    <View
+        android:id="@+id/bottom_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/skin_line_color" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/setting_switch_info_padding"
+        android:layout_marginRight="@dimen/setting_switch_info_padding"
+        android:layout_marginTop="@dimen/setting_switch_info_padding"
+        android:text="标题"
+        android:textColor="@color/skin_text_black_color"
+        android:textSize="@dimen/text_medium" />
+
+
+    <TextView
+        android:id="@+id/value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginBottom="@dimen/setting_switch_info_padding"
+        android:layout_marginLeft="@dimen/setting_switch_info_padding"
+        android:layout_marginRight="@dimen/setting_switch_info_padding"
+        android:text="值"
+        android:textColor="@color/skin_text_gray_color"
+        android:textSize="@dimen/text_mini" />
+
+    <ImageView
+        android:scaleType="centerInside"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/icon_right_arrow" />
+
+</RelativeLayout>
