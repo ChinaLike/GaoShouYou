@@ -5,7 +5,7 @@ import com.touchrom.gaoshouyou.base.BaseEntity;
 import java.util.List;
 
 /**
- * Created by lyy on 2016/3/3.
+ * Created by lk on 2016/3/3.
  * 游戏厂商实体
  */
 public class GameFactoryEntity extends BaseEntity {

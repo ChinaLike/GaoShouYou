@@ -25,7 +25,7 @@ import rx.android.schedulers.AndroidSchedulers;
 import rx.functions.Action1;
 
 /**
- * Created by lyy on 2016/3/14.
+ * Created by lk on 2016/3/14.
  * 游戏详情评论bar
  */
 public class GameDetailCommentBar extends RelativeLayout {

@@ -35,7 +35,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by lyy on 2016/3/1.
+ * Created by lk on 2016/3/1.
  * 登录界面
  */
 public class LoginView extends RelativeLayout implements View.OnClickListener, TextWatcher {

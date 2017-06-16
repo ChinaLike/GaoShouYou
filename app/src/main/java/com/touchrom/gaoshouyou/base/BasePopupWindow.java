@@ -6,7 +6,7 @@ import android.graphics.drawable.Drawable;
 import com.arialyy.frame.core.AbsPopupWindow;
 
 /**
- * Created by lyy on 2015/12/3.
+ * Created by lk on 2015/12/3.
  * popupWindow基类
  */
 public abstract class BasePopupWindow extends AbsPopupWindow {

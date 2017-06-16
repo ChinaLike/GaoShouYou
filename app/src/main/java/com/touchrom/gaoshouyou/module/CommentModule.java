@@ -21,7 +21,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by lyy on 2016/3/14.
+ * Created by lk on 2016/3/14.
  * 评论模型
  */
 public class CommentModule extends BaseModule {

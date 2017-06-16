@@ -27,7 +27,7 @@ import com.touchrom.gaoshouyou.entity.WebEntity;
 import com.touchrom.gaoshouyou.entity.sql.PushEntity;
 
 /**
- * Created by lyy on 2016/1/29.
+ * Created by lk on 2016/1/29.
  * 接收推送的数据
  */
 public class PushReceiver extends BroadcastReceiver {

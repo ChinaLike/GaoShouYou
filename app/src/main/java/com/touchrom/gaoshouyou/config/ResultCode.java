@@ -1,7 +1,7 @@
 package com.touchrom.gaoshouyou.config;
 
 /**
- * Created by lyy on 2015/11/9.
+ * Created by lk on 2015/11/9.
  * 方法返回码
  */
 public class ResultCode {

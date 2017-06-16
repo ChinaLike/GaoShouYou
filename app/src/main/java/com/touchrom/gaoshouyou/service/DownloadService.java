@@ -61,7 +61,7 @@ import rx.android.schedulers.AndroidSchedulers;
 import rx.functions.Action1;
 
 /**
- * Created by lyy on 2015/12/30.
+ * Created by lk on 2015/12/30.
  * 下载服务
  */
 public class DownloadService extends Service {

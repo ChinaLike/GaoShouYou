@@ -15,7 +15,7 @@ import com.touchrom.gaoshouyou.fragment.user.honor.HonorLevFragment;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2016/3/9.
+ * Created by lk on 2016/3/9.
  * 关注
  */
 public class HonorActivity extends BaseActivity<ActivityCollectBinding> {

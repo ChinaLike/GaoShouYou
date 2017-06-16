@@ -11,7 +11,7 @@ import com.touchrom.gaoshouyou.entity.SettingEntity;
 import com.touchrom.gaoshouyou.entity.UserEntity;
 
 /**
- * Created by lyy on 2015/11/9.
+ * Created by lk on 2015/11/9.
  * App管理器
  */
 public class AppManager {

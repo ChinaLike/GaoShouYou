@@ -11,7 +11,7 @@ import com.touchrom.gaoshouyou.widget.RankTriangleView;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2016/3/28.
+ * Created by lk on 2016/3/28.
  */
 class GameRankDelegate extends GameInfoDelegate {
 

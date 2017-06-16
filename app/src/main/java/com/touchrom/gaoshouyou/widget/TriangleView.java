@@ -12,7 +12,7 @@ import android.view.View;
 import com.touchrom.gaoshouyou.R;
 
 /**
- * Created by lyy on 2015/12/10.
+ * Created by lk on 2015/12/10.
  * 排行榜三角形
  */
 public class TriangleView extends View {

@@ -3,7 +3,7 @@ package com.touchrom.gaoshouyou.config;
 import android.os.Environment;
 
 /**
- * Created by lyy on 2015/11/9.
+ * Created by lk on 2015/11/9.
  * 配置文件
  */
 public class Constance {

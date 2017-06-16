@@ -18,7 +18,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by lyy on 2016/3/16.
+ * Created by lk on 2016/3/16.
  * 收藏模型
  */
 public class CollectModule extends BaseModule {

@@ -26,7 +26,7 @@ import butterknife.InjectView;
 import cn.sharesdk.framework.ShareSDK;
 
 /**
- * Created by lyy on 2015/12/2.
+ * Created by lk on 2015/12/2.
  * 关于界面
  */
 public class AboutActivity extends BaseActivity<ActivityAboutBinding> {

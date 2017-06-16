@@ -14,7 +14,7 @@ import com.touchrom.gaoshouyou.fragment.user.collect.CollectGameFragment;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2016/3/9.
+ * Created by lk on 2016/3/9.
  * 收藏界面
  */
 public class CollectActivity extends BaseActivity<ActivityCollectBinding> {

@@ -6,7 +6,7 @@ import android.util.AttributeSet;
 import com.lyy.ui.pulltorefresh.x.XListView;
 
 /**
- * Created by lyy on 2016/1/25.
+ * Created by lk on 2016/1/25.
  */
 public class CustomListView extends XListView {
     public CustomListView(Context context) {

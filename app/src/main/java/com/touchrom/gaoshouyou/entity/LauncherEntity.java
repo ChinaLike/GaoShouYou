@@ -4,7 +4,7 @@ import com.google.gson.annotations.SerializedName;
 import com.touchrom.gaoshouyou.base.BaseEntity;
 
 /**
- * Created by lyy on 2015/11/12.
+ * Created by lk on 2015/11/12.
  * 启动实体
  */
 public class LauncherEntity extends BaseEntity {

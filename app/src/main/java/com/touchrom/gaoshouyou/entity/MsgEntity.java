@@ -3,7 +3,7 @@ package com.touchrom.gaoshouyou.entity;
 import com.touchrom.gaoshouyou.base.BaseEntity;
 
 /**
- * Created by lyy on 2016/3/21.
+ * Created by lk on 2016/3/21.
  * 消息实体
  */
 public class MsgEntity extends BaseEntity {

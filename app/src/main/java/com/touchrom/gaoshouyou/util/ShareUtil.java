@@ -16,7 +16,7 @@ import cn.sharesdk.wechat.friends.Wechat;
 import cn.sharesdk.wechat.moments.WechatMoments;
 
 /**
- * Created by lyy on 2015/12/3.
+ * Created by lk on 2015/12/3.
  * 分享工具
  */
 public class ShareUtil {

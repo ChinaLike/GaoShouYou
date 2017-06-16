@@ -12,7 +12,7 @@ import com.arialyy.frame.util.DensityUtils;
 import com.touchrom.gaoshouyou.R;
 
 /**
- * Created by lyy on 2016/1/20.
+ * Created by lk on 2016/1/20.
  */
 public class RedDotLayout extends FrameLayout {
     private RedDotView mRedDot;

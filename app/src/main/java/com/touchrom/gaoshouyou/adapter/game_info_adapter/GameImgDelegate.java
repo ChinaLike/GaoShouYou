@@ -16,7 +16,7 @@ import com.touchrom.gaoshouyou.entity.SettingEntity;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2016/3/28.
+ * Created by lk on 2016/3/28.
  */
 class GameImgDelegate extends AbsDelegation<GameInfoEntity, GameImgDelegate.GameImgHolder> {
     private SettingEntity mSettingEntity;

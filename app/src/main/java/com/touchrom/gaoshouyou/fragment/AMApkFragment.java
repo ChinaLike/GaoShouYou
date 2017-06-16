@@ -46,7 +46,7 @@ import java.util.Stack;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2015/12/21.
+ * Created by lk on 2015/12/21.
  * 应用管理 安装包、已安装、可更新 的fragment
  */
 @SuppressLint("ValidFragment")

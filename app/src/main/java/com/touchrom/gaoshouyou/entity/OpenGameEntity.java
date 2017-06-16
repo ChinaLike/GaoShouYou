@@ -2,7 +2,7 @@ package com.touchrom.gaoshouyou.entity;
 
 
 /**
- * Created by lyy on 2016/3/22.
+ * Created by lk on 2016/3/22.
  * 开服游戏实体
  */
 public class OpenGameEntity extends GameInfoEntity {

@@ -7,7 +7,7 @@ import android.os.Parcelable;
 import com.touchrom.gaoshouyou.base.BaseSqlEntity;
 
 /**
- * Created by lyy on 2015/12/21.
+ * Created by lk on 2015/12/21.
  * APK信息
  */
 public class ApkInfoEntity extends BaseSqlEntity implements Parcelable {

@@ -25,7 +25,7 @@ import java.util.List;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2016/3/3.
+ * Created by lk on 2016/3/3.
  * 游戏厂商列表
  */
 public class GameFactoryListActivity extends BaseActivity<ActivityGameFactoryListBinding> {

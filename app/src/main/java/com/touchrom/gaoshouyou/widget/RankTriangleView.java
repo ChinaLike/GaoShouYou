@@ -10,7 +10,7 @@ import android.widget.TextView;
 import com.touchrom.gaoshouyou.R;
 
 /**
- * Created by lyy on 2015/12/10.
+ * Created by lk on 2015/12/10.
  */
 public class RankTriangleView extends RelativeLayout {
     TriangleView mTriangle;

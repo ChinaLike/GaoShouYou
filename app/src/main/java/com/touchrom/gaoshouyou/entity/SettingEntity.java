@@ -4,7 +4,7 @@ import com.touchrom.gaoshouyou.base.BaseEntity;
 import com.touchrom.gaoshouyou.config.Constance;
 
 /**
- * Created by lyy on 2015/12/1.
+ * Created by lk on 2015/12/1.
  * 设置实体
  */
 public class SettingEntity extends BaseEntity {

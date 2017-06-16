@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by lyy on 2016/3/8.
+ * Created by lk on 2016/3/8.
  * 礼包实体
  */
 public class GiftEntity extends BaseEntity implements Parcelable {

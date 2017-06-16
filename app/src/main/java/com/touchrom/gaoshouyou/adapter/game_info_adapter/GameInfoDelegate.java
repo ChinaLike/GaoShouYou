@@ -20,7 +20,7 @@ import com.touchrom.gaoshouyou.help.ImgHelp;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2016/3/28.
+ * Created by lk on 2016/3/28.
  */
 class GameInfoDelegate extends AbsDelegation<GameInfoEntity, GameInfoDelegate.GameInfoHolder> {
 

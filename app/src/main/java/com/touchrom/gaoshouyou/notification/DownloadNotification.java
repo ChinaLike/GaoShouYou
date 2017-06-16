@@ -12,7 +12,7 @@ import com.touchrom.gaoshouyou.config.Constance;
 import com.touchrom.gaoshouyou.entity.NotificationEntity;
 
 /**
- * Created by lyy on 2015/11/13.
+ * Created by lk on 2015/11/13.
  * 下载通知栏
  */
 public class DownloadNotification {

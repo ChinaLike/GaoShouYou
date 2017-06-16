@@ -3,7 +3,7 @@ package com.touchrom.gaoshouyou.entity;
 import com.touchrom.gaoshouyou.base.BaseEntity;
 
 /**
- * Created by lyy on 2016/1/25.
+ * Created by lk on 2016/1/25.
  * 筛选悬浮框记录实体
  */
 public class FilterPWEntity extends BaseEntity {

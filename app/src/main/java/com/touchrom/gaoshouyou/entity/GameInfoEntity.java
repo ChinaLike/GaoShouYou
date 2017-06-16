@@ -7,7 +7,7 @@ import com.google.gson.annotations.SerializedName;
 import com.touchrom.gaoshouyou.base.BaseEntity;
 
 /**
- * Created by lyy on 2015/12/8.
+ * Created by lk on 2015/12/8.
  * 游戏列表游戏信息实体
  */
 public class GameInfoEntity extends BaseEntity implements Parcelable {

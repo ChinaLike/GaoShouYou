@@ -35,7 +35,7 @@ import com.touchrom.gaoshouyou.help.turn.TurnHelp;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2015/11/18.
+ * Created by lk on 2015/11/18.
  * Banner
  */
 @SuppressLint("ValidFragment")

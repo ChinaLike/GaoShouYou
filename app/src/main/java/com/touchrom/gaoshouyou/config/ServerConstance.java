@@ -1,7 +1,7 @@
 package com.touchrom.gaoshouyou.config;
 
 /**
- * Created by lyy on 2015/11/12.
+ * Created by lk on 2015/11/12.
  * 网络接口
  */
 public class ServerConstance {

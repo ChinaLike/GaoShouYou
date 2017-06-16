@@ -3,7 +3,7 @@ package com.touchrom.gaoshouyou.base.adapter.d_adapter;
 import android.content.Context;
 
 /**
- * Created by lyy on 2016/3/28.
+ * Created by lk on 2016/3/28.
  * Delegation基类
  */
 public abstract class AbsDelegation<T, H extends AbsDHolder> implements IDelegation<T, H> {

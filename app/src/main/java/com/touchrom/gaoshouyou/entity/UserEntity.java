@@ -9,7 +9,7 @@ import com.touchrom.gaoshouyou.base.BaseEntity;
 import java.util.List;
 
 /**
- * Created by lyy on 2015/11/6.
+ * Created by lk on 2015/11/6.
  * 用户实体
  */
 public class UserEntity extends BaseEntity implements Parcelable {

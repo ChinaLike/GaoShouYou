@@ -18,7 +18,7 @@ import com.touchrom.gaoshouyou.widget.TempView;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2015/12/3.
+ * Created by lk on 2015/12/3.
  * webView基类
  */
 public class BaseWebView extends BaseActivity<ActivityBaseWebBinding> {

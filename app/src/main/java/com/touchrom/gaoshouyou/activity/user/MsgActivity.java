@@ -25,7 +25,7 @@ import java.util.List;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2016/3/21.
+ * Created by lk on 2016/3/21.
  * 消息界面
  */
 public class MsgActivity extends BaseActivity<ActivityMsgBinding> {

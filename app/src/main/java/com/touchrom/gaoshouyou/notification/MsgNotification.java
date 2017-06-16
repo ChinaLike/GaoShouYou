@@ -6,7 +6,7 @@ import android.support.v4.app.NotificationCompat;
 import com.touchrom.gaoshouyou.entity.NotificationEntity;
 
 /**
- * Created by lyy on 2015/12/4.
+ * Created by lk on 2015/12/4.
  * 普通消息通知
  */
 public class MsgNotification {

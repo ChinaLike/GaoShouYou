@@ -18,7 +18,7 @@ import java.util.Map;
 import java.util.WeakHashMap;
 
 /**
- * Created by lyy on 2016/1/18.
+ * Created by lk on 2016/1/18.
  * 一些通用的module,如分享，收藏。。
  */
 public class SettingModule extends BaseModule {

@@ -13,7 +13,7 @@ import java.util.List;
 
 /**
  * 循环的FragmentPagerAdapter
- * Created by Lyy on 2014/10/10.
+ * Created by lk on 2014/10/10.
  */
 @Deprecated
 public abstract class CycleFragmentPagerAdapter extends PagerAdapter {

@@ -3,7 +3,7 @@ package com.touchrom.gaoshouyou.base.adapter.d_adapter;
 import android.view.View;
 
 /**
- * Created by lyy on 2016/3/28.
+ * Created by lk on 2016/3/28.
  */
 public interface IDelegation<T, H extends AbsDHolder> {
     /**

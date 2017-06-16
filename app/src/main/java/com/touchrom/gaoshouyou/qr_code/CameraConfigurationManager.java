@@ -15,7 +15,7 @@ import java.util.Iterator;
 import java.util.List;
 
 /**
- * Created by lyy on 2016/5/5.
+ * Created by lk on 2016/5/5.
  * 设置相机的参数信息，获取最佳的预览界面
  */
 public final class CameraConfigurationManager {

@@ -59,7 +59,7 @@ import rx.functions.Func1;
 import rx.schedulers.Schedulers;
 
 /**
- * Created by lyy on 2015/11/12.
+ * Created by lk on 2015/11/12.
  * 启动页面数据模型
  */
 public class LauncherModule extends BaseModule {

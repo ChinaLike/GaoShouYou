@@ -12,7 +12,7 @@ import com.touchrom.gaoshouyou.R;
 import com.touchrom.gaoshouyou.help.RippleHelp;
 
 /**
- * Created by lyy on 2015/11/30.
+ * Created by lk on 2015/11/30.
  * 设置界面中带有右向箭头的的Widget
  */
 public class SettingNormalInfo extends RelativeLayout {

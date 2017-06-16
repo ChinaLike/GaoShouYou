@@ -16,7 +16,7 @@ import com.touchrom.gaoshouyou.module.CommentModule;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2016/3/15.
+ * Created by lk on 2016/3/15.
  * 评论界面
  */
 public class CommentActivity extends BaseActivity<ActivityCommentBinding> {

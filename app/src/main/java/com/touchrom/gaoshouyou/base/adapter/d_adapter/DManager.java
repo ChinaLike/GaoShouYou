@@ -4,7 +4,7 @@ import android.util.Log;
 import android.util.SparseArray;
 
 /**
- * Created by lyy on 2016/3/28.
+ * Created by lk on 2016/3/28.
  */
 public class DManager {
     private String TAG = "DManager";

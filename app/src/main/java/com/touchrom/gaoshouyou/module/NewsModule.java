@@ -22,7 +22,7 @@ import java.util.Map;
 import java.util.WeakHashMap;
 
 /**
- * Created by lyy on 2016/3/4.
+ * Created by lk on 2016/3/4.
  * 资讯Module
  */
 public class NewsModule extends BaseModule {

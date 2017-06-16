@@ -14,7 +14,7 @@ import com.arialyy.frame.util.DensityUtils;
 import com.touchrom.gaoshouyou.R;
 
 /**
- * Created by lyy on 2015/12/2.
+ * Created by lk on 2015/12/2.
  * 简单的 ToolBar
  * 注意：右边图标不能和右边文字一起使用
  */

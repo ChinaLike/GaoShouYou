@@ -30,7 +30,7 @@ import rx.functions.Func1;
 import rx.schedulers.Schedulers;
 
 /**
- * Created by lyy on 2015/12/1.
+ * Created by lk on 2015/12/1.
  * 下载位置选择对话框
  */
 @SuppressLint("ValidFragment")

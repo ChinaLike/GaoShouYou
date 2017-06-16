@@ -62,7 +62,7 @@ import java.util.List;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2015/11/13.
+ * Created by lk on 2015/11/13.
  * 游戏详情Activity
  * 注意，为了不被状态栏挤压，需要AppBarLayout里面的控件都设置android:fitsSystemWindows="true"属性，toolbar除外
  */

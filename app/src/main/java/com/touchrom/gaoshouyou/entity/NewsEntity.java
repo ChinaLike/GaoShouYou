@@ -5,7 +5,7 @@ import com.touchrom.gaoshouyou.base.BaseEntity;
 import java.util.List;
 
 /**
- * Created by lyy on 2016/3/2.
+ * Created by lk on 2016/3/2.
  * 资讯实体
  */
 public class NewsEntity extends BaseEntity {

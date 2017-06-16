@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by lyy on 2016/3/15.
+ * Created by lk on 2016/3/15.
  * 收藏实体
  */
 public class CollectEntity extends BaseEntity {

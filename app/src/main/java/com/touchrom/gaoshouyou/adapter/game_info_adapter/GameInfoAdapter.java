@@ -8,7 +8,7 @@ import com.touchrom.gaoshouyou.entity.GameInfoEntity;
 import java.util.List;
 
 /**
- * Created by lyy on 2015/12/9.
+ * Created by lk on 2015/12/9.
  */
 public class GameInfoAdapter extends AbsDAdapter<GameInfoEntity> {
 

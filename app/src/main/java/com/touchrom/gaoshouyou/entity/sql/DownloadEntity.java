@@ -6,7 +6,7 @@ import android.os.Parcelable;
 import com.touchrom.gaoshouyou.base.BaseSqlEntity;
 
 /**
- * Created by lyy on 2015/12/25.
+ * Created by lk on 2015/12/25.
  * 下载实体
  */
 public class DownloadEntity extends BaseSqlEntity implements Parcelable, Cloneable {

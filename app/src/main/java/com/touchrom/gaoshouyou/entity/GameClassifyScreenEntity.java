@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by lyy on 2015/12/11.
+ * Created by lk on 2015/12/11.
  * 游戏分类筛选悬浮框实体
  */
 public class GameClassifyScreenEntity extends BaseEntity {

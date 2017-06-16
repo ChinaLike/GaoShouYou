@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by lyy on 2016/4/7.
+ * Created by lk on 2016/4/7.
  */
 public class TopicDetailEntity extends ArticleEntity {
     List<GameInfoEntity> games = new ArrayList<>();

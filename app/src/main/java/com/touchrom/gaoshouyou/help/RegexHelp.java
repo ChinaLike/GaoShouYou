@@ -6,7 +6,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * Created by lyy on 2015/7/29.
+ * Created by lk on 2015/7/29.
  * 正则表达式类型判断帮助类
  */
 public class RegexHelp {

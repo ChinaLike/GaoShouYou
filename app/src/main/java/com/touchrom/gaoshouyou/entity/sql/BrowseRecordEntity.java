@@ -6,7 +6,7 @@ import android.os.Parcelable;
 import com.touchrom.gaoshouyou.base.BaseSqlEntity;
 
 /**
- * Created by lyy on 2016/2/17.
+ * Created by lk on 2016/2/17.
  * 浏览实体
  */
 public class BrowseRecordEntity extends BaseSqlEntity implements Parcelable {

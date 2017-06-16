@@ -34,7 +34,7 @@ import java.util.Map;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2016/3/14.
+ * Created by lk on 2016/3/14.
  * 评论适配器
  */
 public class CommentAdapter extends AbsOrdinaryAdapter<CommentEntity, CommentAdapter.CommentHolder> {

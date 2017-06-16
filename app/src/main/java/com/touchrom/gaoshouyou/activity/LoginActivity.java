@@ -13,7 +13,7 @@ import com.touchrom.gaoshouyou.widget.LoginView;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2016/3/1.
+ * Created by lk on 2016/3/1.
  * 登录界面
  */
 public class LoginActivity extends BaseActivity<ActivityLoginBinding> implements LoginView.LoginCallback {

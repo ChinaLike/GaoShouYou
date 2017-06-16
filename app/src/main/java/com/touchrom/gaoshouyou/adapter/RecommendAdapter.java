@@ -25,7 +25,7 @@ import java.util.List;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2015/11/18.
+ * Created by lk on 2015/11/18.
  * Banner 循环滚动适配器
  */
 public class RecommendAdapter extends CycleFragmentPagerAdapter {

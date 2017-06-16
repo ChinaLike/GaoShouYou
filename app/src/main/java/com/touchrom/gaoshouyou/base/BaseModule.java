@@ -6,7 +6,7 @@ import com.arialyy.frame.module.AbsModule;
 import com.touchrom.gaoshouyou.net.ServiceUtil;
 
 /**
- * Created by lyy on 2015/11/11.
+ * Created by lk on 2015/11/11.
  * 基本模型层
  */
 public class BaseModule extends AbsModule {

@@ -9,7 +9,7 @@ import android.widget.BaseAdapter;
 import java.util.List;
 
 /**
- * Created by Lyy on 2015/3/12.
+ * Created by lk on 2015/3/12.
  * 可扩展的适配器
  */
 public abstract class AbsOrdinaryAdapter<T, ViewHolder extends AbsOrdinaryViewHolder> extends BaseAdapter {

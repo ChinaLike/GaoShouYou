@@ -7,7 +7,7 @@ import com.google.gson.annotations.SerializedName;
 import com.touchrom.gaoshouyou.base.BaseSqlEntity;
 
 /**
- * Created by lyy on 2016/1/8.
+ * Created by lk on 2016/1/8.
  * app更新实体
  */
 public class ApkUpdateInfoEntity extends BaseSqlEntity implements Parcelable {

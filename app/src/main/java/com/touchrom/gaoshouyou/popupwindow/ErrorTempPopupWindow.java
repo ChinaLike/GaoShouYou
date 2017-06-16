@@ -14,7 +14,7 @@ import com.touchrom.gaoshouyou.net.ServiceUtil;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2015/12/23.
+ * Created by lk on 2015/12/23.
  * 错误填充窗口
  */
 public class ErrorTempPopupWindow extends BasePopupWindow {

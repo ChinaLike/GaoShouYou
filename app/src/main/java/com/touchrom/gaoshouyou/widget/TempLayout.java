@@ -6,7 +6,7 @@ import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 
 /**
- * Created by lyy on 2016/1/11.
+ * Created by lk on 2016/1/11.
  */
 public class TempLayout extends RelativeLayout {
     TempView mTemp;

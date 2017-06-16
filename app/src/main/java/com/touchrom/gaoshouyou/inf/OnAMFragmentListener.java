@@ -7,7 +7,7 @@ import com.touchrom.gaoshouyou.fragment.AMApkFragment;
 import java.util.Set;
 
 /**
- * Created by lyy on 2015/12/22.
+ * Created by lk on 2015/12/22.
  * 应用管理Fragment接口
  */
 public interface OnAMFragmentListener {

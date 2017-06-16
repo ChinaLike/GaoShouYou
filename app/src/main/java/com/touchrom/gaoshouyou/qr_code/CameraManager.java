@@ -9,7 +9,7 @@ import java.io.IOException;
 
 
 /**
- * Created by lyy on 2016/5/5.
+ * Created by lk on 2016/5/5.
  * 相机管理
  */
 public final class CameraManager {

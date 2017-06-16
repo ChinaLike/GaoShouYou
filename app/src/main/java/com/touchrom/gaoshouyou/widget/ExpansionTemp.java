@@ -32,7 +32,7 @@ import com.touchrom.gaoshouyou.help.turn.TurnHelp;
 import java.util.List;
 
 /**
- * Created by lyy on 2016/2/19.
+ * Created by lk on 2016/2/19.
  */
 @TargetApi(11)
 public class ExpansionTemp extends LinearLayout {

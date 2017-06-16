@@ -3,7 +3,7 @@ package com.touchrom.gaoshouyou.entity;
 import com.touchrom.gaoshouyou.base.BaseEntity;
 
 /**
- * Created by lyy on 2016/3/16.
+ * Created by lk on 2016/3/16.
  * 粉丝实体
  */
 public class FansEntity extends BaseEntity {

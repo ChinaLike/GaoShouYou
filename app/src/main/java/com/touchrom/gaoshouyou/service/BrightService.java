@@ -8,7 +8,7 @@ import android.os.Handler;
 import android.provider.Settings;
 
 /**
- * Created by lyy on 2015/11/11.
+ * Created by lk on 2015/11/11.
  * 亮度服务
  */
 public class BrightService extends IntentService {

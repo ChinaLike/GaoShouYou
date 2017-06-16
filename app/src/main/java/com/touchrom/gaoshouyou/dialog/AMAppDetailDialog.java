@@ -18,7 +18,7 @@ import com.touchrom.gaoshouyou.databinding.DialogAppManagerDetailBinding;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2015/12/25.
+ * Created by lk on 2015/12/25.
  * 应用管理Item点击dialog界面
  */
 @SuppressLint("ValidFragment")

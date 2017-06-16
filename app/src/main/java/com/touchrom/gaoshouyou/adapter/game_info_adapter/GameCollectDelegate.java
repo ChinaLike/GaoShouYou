@@ -17,7 +17,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by lyy on 2016/3/29.
+ * Created by lk on 2016/3/29.
  */
 class GameCollectDelegate extends GameInfoDelegate {
     private OnNotifyCallback mCallback;

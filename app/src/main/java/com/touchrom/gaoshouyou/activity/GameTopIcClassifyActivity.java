@@ -15,7 +15,7 @@ import com.touchrom.gaoshouyou.fragment.game.topic.GameTopicClassifyDetailFragme
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2016/2/26.
+ * Created by lk on 2016/2/26.
  * 游戏专题分类
  */
 public class GameTopIcClassifyActivity extends BaseActivity<ActivityGameTopicClassifyBinding> {

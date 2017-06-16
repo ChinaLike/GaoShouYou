@@ -35,7 +35,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by lyy on 2015/12/21.
+ * Created by lk on 2015/12/21.
  * 应用管理模型
  */
 public class AppManagerModule extends BaseModule {

@@ -11,7 +11,7 @@ import android.widget.RelativeLayout;
 import com.touchrom.gaoshouyou.R;
 
 /**
- * Created by lyy on 2015/12/17.
+ * Created by lk on 2015/12/17.
  * 游戏展示页面底部栏
  */
 public class GameDetailInfoBottomBar extends RelativeLayout implements View.OnClickListener {

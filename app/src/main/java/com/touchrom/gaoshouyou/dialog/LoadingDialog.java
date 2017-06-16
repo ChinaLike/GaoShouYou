@@ -9,7 +9,7 @@ import com.touchrom.gaoshouyou.base.BaseDialog;
 import com.touchrom.gaoshouyou.databinding.DialogLoadingBinding;
 
 /**
- * Created by lyy on 2015/11/9.
+ * Created by lk on 2015/11/9.
  * 加载等待对话框
  */
 @SuppressLint("ValidFragment")

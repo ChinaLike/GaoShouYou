@@ -12,7 +12,7 @@ import com.lyy.ui.widget.MyToggleButton;
 import com.touchrom.gaoshouyou.R;
 
 /**
- * Created by lyy on 2015/11/30.
+ * Created by lk on 2015/11/30.
  * 设置界面中带有选择控件的Widget
  */
 public class SettingSwitchInfo extends RelativeLayout {

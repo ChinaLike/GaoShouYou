@@ -6,7 +6,7 @@ import android.os.Parcelable;
 import com.touchrom.gaoshouyou.base.BaseEntity;
 
 /**
- * Created by lyy on 2015/11/6.
+ * Created by lk on 2015/11/6.
  * Web实体
  */
 public class WebEntity extends BaseEntity implements Parcelable {

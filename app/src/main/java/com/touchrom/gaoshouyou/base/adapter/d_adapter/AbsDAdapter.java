@@ -9,7 +9,7 @@ import android.widget.BaseAdapter;
 import java.util.List;
 
 /**
- * Created by lyy on 2016/3/28.
+ * Created by lk on 2016/3/28.
  * 处理含有多个ViewType的Adapter使用
  */
 public abstract class AbsDAdapter<T> extends BaseAdapter {

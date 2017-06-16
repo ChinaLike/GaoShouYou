@@ -22,7 +22,7 @@ import com.touchrom.gaoshouyou.R;
 import com.touchrom.gaoshouyou.help.ImgHelp;
 
 /**
- * Created by lyy on 2016/1/11.
+ * Created by lk on 2016/1/11.
  * 错误填充View
  */
 public class TempView extends LinearLayout {

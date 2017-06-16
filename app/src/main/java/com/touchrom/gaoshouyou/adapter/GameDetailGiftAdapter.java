@@ -22,7 +22,7 @@ import java.util.Map;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2016/3/8.
+ * Created by lk on 2016/3/8.
  * 游戏详情礼包适配器
  */
 public class GameDetailGiftAdapter extends AbsOrdinaryAdapter<GiftEntity, GameDetailGiftAdapter.GiftHolder> {

@@ -9,7 +9,7 @@ import com.arialyy.frame.util.DensityUtils;
 import com.touchrom.gaoshouyou.R;
 
 /**
- * Created by lyy on 2016/3/15.
+ * Created by lk on 2016/3/15.
  * 我的评论 textView
  */
 public class MyCommentText extends TextView {

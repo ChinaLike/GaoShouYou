@@ -7,7 +7,7 @@ import com.google.gson.annotations.SerializedName;
 import com.touchrom.gaoshouyou.base.BaseEntity;
 
 /**
- * Created by lyy on 2015/12/7.
+ * Created by lk on 2015/12/7.
  * 推荐Banner的实体
  */
 public class RecommendEntity extends BaseEntity implements Parcelable {

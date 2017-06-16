@@ -14,7 +14,7 @@ import com.touchrom.gaoshouyou.help.RippleHelp;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2016/1/7.
+ * Created by lk on 2016/1/7.
  * 消息对话框
  */
 public class MsgDialog1 extends AbsDialog implements View.OnClickListener {

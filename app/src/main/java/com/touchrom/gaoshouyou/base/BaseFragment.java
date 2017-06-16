@@ -27,7 +27,7 @@ import rx.functions.Func1;
 import rx.schedulers.Schedulers;
 
 /**
- * Created by lyy on 2015/11/6.
+ * Created by lk on 2015/11/6.
  * fragment基类
  */
 public abstract class BaseFragment<VB extends ViewDataBinding> extends AbsFragment<VB> {

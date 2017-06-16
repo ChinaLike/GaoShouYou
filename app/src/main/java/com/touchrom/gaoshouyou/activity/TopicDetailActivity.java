@@ -41,7 +41,7 @@ import java.util.List;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2016/3/4.
+ * Created by lk on 2016/3/4.
  * 文章展示界面
  */
 public class TopicDetailActivity extends BaseActivity<ActivityTopicDetailBinding> implements FontSizePopupWindow.OnFontSizeChangeListener {

@@ -7,7 +7,7 @@ import cn.sharesdk.framework.PlatformActionListener;
 import cn.sharesdk.framework.ShareSDK;
 
 /**
- * Created by lyy on 2016/2/1.
+ * Created by lk on 2016/2/1.
  * 第三方登录工具
  */
 public class LoginUtil {

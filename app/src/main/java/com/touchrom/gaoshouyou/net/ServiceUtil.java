@@ -19,7 +19,7 @@ import java.util.Map;
 import java.util.WeakHashMap;
 
 /**
- * Created by lyy on 2015/11/11.
+ * Created by lk on 2015/11/11.
  * 网络接口请求类
  */
 public class ServiceUtil {

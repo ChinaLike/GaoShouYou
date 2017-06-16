@@ -15,7 +15,7 @@ import java.util.List;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2016/1/12.
+ * Created by lk on 2016/1/12.
  * 排行榜分类适配器
  */
 public class RankClassifyAdapter extends AbsOrdinaryAdapter<TagEntity, RankClassifyAdapter.RankClassifyHolder> {

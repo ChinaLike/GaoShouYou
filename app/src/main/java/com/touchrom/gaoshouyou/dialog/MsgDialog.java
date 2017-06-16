@@ -15,7 +15,7 @@ import com.touchrom.gaoshouyou.help.RippleHelp;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2015/11/9.
+ * Created by lk on 2015/11/9.
  * 消息对话框
  */
 @SuppressLint("ValidFragment")

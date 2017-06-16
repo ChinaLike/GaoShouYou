@@ -18,7 +18,7 @@ import com.touchrom.gaoshouyou.help.turn.inf.ITurn;
 import com.touchrom.gaoshouyou.widget.ExpansionTemp;
 
 /**
- * Created by lyy on 2015/8/14.
+ * Created by lk on 2015/8/14.
  * 跳转到具体页面
  */
 final class TurnGift extends TurnHelp implements ITurn {

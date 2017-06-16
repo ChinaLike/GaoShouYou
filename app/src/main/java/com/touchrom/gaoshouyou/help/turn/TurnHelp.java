@@ -26,7 +26,7 @@ import com.touchrom.gaoshouyou.entity.WebEntity;
 import com.touchrom.gaoshouyou.help.turn.inf.ITurn;
 
 /**
- * Created by lyy on 2015/8/14.
+ * Created by lk on 2015/8/14.
  * 跳转帮助类
  */
 public class TurnHelp {

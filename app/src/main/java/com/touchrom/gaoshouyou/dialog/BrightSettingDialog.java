@@ -16,7 +16,7 @@ import com.touchrom.gaoshouyou.config.ResultCode;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2015/11/10.
+ * Created by lk on 2015/11/10.
  * 夜间模式对话框
  */
 @SuppressLint("ValidFragment")

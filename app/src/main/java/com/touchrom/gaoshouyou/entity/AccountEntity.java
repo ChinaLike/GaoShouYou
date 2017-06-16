@@ -4,7 +4,7 @@ import com.arialyy.frame.util.AESEncryption;
 import com.touchrom.gaoshouyou.base.BaseEntity;
 
 /**
- * Created by lyy on 2016/3/1.
+ * Created by lk on 2016/3/1.
  * 账户实体
  */
 public class AccountEntity extends BaseEntity {

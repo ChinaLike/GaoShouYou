@@ -37,7 +37,7 @@ import java.util.List;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2015/12/7.
+ * Created by lk on 2015/12/7.
  * 精选Fragment
  */
 @SuppressLint("ValidFragment")

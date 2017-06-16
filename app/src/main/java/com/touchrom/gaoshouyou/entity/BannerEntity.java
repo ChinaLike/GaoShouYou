@@ -7,7 +7,7 @@ import com.google.gson.annotations.SerializedName;
 import com.touchrom.gaoshouyou.base.BaseEntity;
 
 /**
- * Created by lyy on 2015/11/18.
+ * Created by lk on 2015/11/18.
  * Banner实体
  */
 public class BannerEntity extends BaseEntity implements Parcelable {

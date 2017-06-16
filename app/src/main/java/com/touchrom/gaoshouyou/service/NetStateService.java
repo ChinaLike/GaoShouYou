@@ -13,7 +13,7 @@ import com.arialyy.frame.util.show.L;
 import com.touchrom.gaoshouyou.base.AppManager;
 
 /**
- * Created by lyy on 2015/11/9.
+ * Created by lk on 2015/11/9.
  * 网络状态监听
  */
 public class NetStateService extends IntentService {

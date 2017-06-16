@@ -21,7 +21,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by lyy on 2015/12/23.
+ * Created by lk on 2015/12/23.
  * 游戏分类模型
  */
 public class GameClassifyModule extends BaseModule {

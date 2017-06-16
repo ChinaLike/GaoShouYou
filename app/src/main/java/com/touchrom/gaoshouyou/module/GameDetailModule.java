@@ -27,7 +27,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by lyy on 2016/1/12.
+ * Created by lk on 2016/1/12.
  * 游戏详情模型
  */
 public class GameDetailModule extends BaseModule {

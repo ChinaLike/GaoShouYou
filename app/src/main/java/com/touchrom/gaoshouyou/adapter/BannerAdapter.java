@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by lyy on 2015/11/18.
+ * Created by lk on 2015/11/18.
  * Banner适配器
  */
 public class BannerAdapter extends FragmentPagerAdapter {

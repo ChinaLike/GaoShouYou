@@ -27,7 +27,7 @@ import java.util.List;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2016/3/14.
+ * Created by lk on 2016/3/14.
  * 评论界面
  */
 public class ReplyActivity extends BaseActivity<ActivityReplyBinding> implements View.OnClickListener {

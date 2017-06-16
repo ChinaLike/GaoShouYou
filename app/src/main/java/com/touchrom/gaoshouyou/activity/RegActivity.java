@@ -31,7 +31,7 @@ import com.touchrom.gaoshouyou.util.S;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2016/3/1.
+ * Created by lk on 2016/3/1.
  * 注册界面
  */
 public class RegActivity extends BaseActivity<ActivityRegBinding> implements TextWatcher, View.OnClickListener {

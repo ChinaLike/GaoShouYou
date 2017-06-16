@@ -6,7 +6,7 @@ import android.view.View;
 import com.touchrom.gaoshouyou.base.BaseEntity;
 
 /**
- * Created by lyy on 2016/3/3.
+ * Created by lk on 2016/3/3.
  */
 public interface ITurn {
     public void onTurn(Context context, int appId);

@@ -16,7 +16,7 @@ import com.touchrom.gaoshouyou.fragment.user.fans.FansFragment;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2016/3/9.
+ * Created by lk on 2016/3/9.
  * 关注
  */
 public class FollowActivity extends BaseActivity<ActivityCollectBinding> {

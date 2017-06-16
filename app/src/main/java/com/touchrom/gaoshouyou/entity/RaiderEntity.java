@@ -4,7 +4,7 @@ import com.google.gson.annotations.SerializedName;
 import com.touchrom.gaoshouyou.base.BaseEntity;
 
 /**
- * Created by lyy on 2016/3/8.
+ * Created by lk on 2016/3/8.
  * 攻略实体
  */
 public class RaiderEntity extends BaseEntity {

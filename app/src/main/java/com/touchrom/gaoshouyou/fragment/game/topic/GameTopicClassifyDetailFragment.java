@@ -29,7 +29,7 @@ import java.util.List;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2016/2/26.
+ * Created by lk on 2016/2/26.
  * 分类详情
  */
 @SuppressLint("ValidFragment")

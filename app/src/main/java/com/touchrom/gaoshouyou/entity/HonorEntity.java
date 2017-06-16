@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by lyy on 2016/3/21.
+ * Created by lk on 2016/3/21.
  * 荣誉实体
  */
 public class HonorEntity extends BaseEntity {

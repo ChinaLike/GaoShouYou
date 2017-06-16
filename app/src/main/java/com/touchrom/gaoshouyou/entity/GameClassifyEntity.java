@@ -3,7 +3,7 @@ package com.touchrom.gaoshouyou.entity;
 import com.touchrom.gaoshouyou.base.BaseEntity;
 
 /**
- * Created by lyy on 2015/12/10.
+ * Created by lk on 2015/12/10.
  * 游戏分类Adapter实体
  */
 public class GameClassifyEntity extends BaseEntity {

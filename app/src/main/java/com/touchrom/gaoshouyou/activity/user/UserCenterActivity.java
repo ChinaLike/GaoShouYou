@@ -26,7 +26,7 @@ import com.touchrom.gaoshouyou.module.UserModule;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2016/3/24.
+ * Created by lk on 2016/3/24.
  * 用户中心实体
  */
 public class UserCenterActivity extends BaseActivity<ActivityUserCenterBinding> {

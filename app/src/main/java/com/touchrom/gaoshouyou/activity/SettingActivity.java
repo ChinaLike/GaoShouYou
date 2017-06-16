@@ -41,7 +41,7 @@ import rx.android.schedulers.AndroidSchedulers;
 import rx.functions.Action1;
 
 /**
- * Created by lyy on 2015/11/30.
+ * Created by lk on 2015/11/30.
  * 设置界面
  */
 public class SettingActivity extends BaseActivity<ActivitySettingBinding> {

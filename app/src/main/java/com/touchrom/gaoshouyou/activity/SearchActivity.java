@@ -33,7 +33,7 @@ import java.util.List;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2016/1/18.
+ * Created by lk on 2016/1/18.
  * 搜索界面
  */
 public class SearchActivity extends BaseActivity<ActivitySearchBinding> {

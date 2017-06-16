@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by lyy on 2016/3/14.
+ * Created by lk on 2016/3/14.
  * 评论实体
  */
 public class CommentEntity extends BaseEntity {

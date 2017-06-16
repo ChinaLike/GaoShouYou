@@ -15,7 +15,7 @@ import java.util.List;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2015/12/3.
+ * Created by lk on 2015/12/3.
  * 分享Adapter
  */
 public class ShareAdapter extends AbsRVAdapter<SimpleAdapterEntity, ShareAdapter.ShareHolder> {

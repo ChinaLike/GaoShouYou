@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by lyy on 2015/12/3.
+ * Created by lk on 2015/12/3.
  * RecyclerView 通用Adapter
  * 事件监听有待完成
  */

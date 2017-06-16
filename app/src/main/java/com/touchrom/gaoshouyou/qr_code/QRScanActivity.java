@@ -39,7 +39,7 @@ import java.io.IOException;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2016/5/5.
+ * Created by lk on 2016/5/5.
  * 二维码扫描界面
  */
 public class QRScanActivity extends BaseActivity<ActivityQrScanBinding> {

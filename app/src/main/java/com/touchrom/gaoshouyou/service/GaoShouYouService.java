@@ -32,7 +32,7 @@ import rx.functions.Action1;
 import rx.functions.Func1;
 
 /**
- * Created by lyy on 2016/1/14.
+ * Created by lk on 2016/1/14.
  * 高手游系统服务,该服务为APP服务，负责操作APP的全局事件
  */
 public class GaoShouYouService extends Service {

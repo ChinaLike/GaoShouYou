@@ -13,7 +13,7 @@ import org.litepal.LitePalApplication;
 import cn.sharesdk.framework.ShareSDK;
 
 /**
- * Created by lyy on 2015/11/6.
+ * Created by lk on 2015/11/6.
  */
 public class BaseApplication extends AbsApplication {
     private static Context mContext;

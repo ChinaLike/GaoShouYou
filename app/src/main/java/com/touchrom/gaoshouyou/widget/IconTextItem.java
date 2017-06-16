@@ -12,7 +12,7 @@ import android.widget.TextView;
 import com.touchrom.gaoshouyou.R;
 
 /**
- * Created by lyy on 2016/2/26.
+ * Created by lk on 2016/2/26.
  */
 public class IconTextItem extends RelativeLayout {
 

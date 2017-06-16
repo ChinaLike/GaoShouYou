@@ -9,7 +9,7 @@ import com.lyy.ui.group.MaterialRippleLayout;
 import com.touchrom.gaoshouyou.R;
 
 /**
- * Created by lyy on 2015/12/1.
+ * Created by lk on 2015/12/1.
  * 创建水波纹选择器
  */
 public class RippleHelp {

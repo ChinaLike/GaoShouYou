@@ -9,7 +9,7 @@ import android.view.View;
 import com.arialyy.frame.util.DensityUtils;
 
 /**
- * Created by lyy on 2016/3/14.
+ * Created by lk on 2016/3/14.
  */
 @TargetApi(14)
 public class AnimHelp {

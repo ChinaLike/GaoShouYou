@@ -7,7 +7,7 @@ import android.util.AttributeSet;
 import android.view.View;
 
 /**
- * Created by lyy on 2016/1/19.
+ * Created by lk on 2016/1/19.
  * 下载小圆点
  */
 public class RedDotView extends View {

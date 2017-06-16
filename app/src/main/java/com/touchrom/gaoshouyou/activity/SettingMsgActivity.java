@@ -12,7 +12,7 @@ import com.touchrom.gaoshouyou.widget.SettingSwitchInfo;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2015/12/1.
+ * Created by lk on 2015/12/1.
  * 推送消息设置界面
  */
 public class SettingMsgActivity extends BaseActivity<ActivitySettingMsgBinding> {

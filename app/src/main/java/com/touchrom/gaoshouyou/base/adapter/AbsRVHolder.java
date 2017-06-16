@@ -6,7 +6,7 @@ import android.view.View;
 import butterknife.ButterKnife;
 
 /**
- * Created by lyy on 2015/12/3.
+ * Created by lk on 2015/12/3.
  * RecyclerView 通用Holder
  */
 public class AbsRVHolder extends RecyclerView.ViewHolder implements View.OnClickListener, View.OnLongClickListener {

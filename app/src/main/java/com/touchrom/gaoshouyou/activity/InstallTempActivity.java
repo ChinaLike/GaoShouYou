@@ -12,7 +12,7 @@ import com.touchrom.gaoshouyou.config.Constance;
 import java.io.File;
 
 /**
- * Created by lyy on 2015/11/13.
+ * Created by lk on 2015/11/13.
  * 麻痹，谷歌就是喜欢坑开发者，使用MVVM框架安装界面就不能正常显示，妈的
  */
 public class InstallTempActivity extends AppCompatActivity {

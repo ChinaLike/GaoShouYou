@@ -4,7 +4,7 @@ import com.google.gson.annotations.SerializedName;
 import com.touchrom.gaoshouyou.base.BaseEntity;
 
 /**
- * Created by lyy on 2016/1/11.
+ * Created by lk on 2016/1/11.
  * 游戏详情实体
  */
 public class GameDetailEntity extends BaseEntity {

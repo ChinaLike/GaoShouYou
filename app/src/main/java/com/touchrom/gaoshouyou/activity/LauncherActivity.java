@@ -24,7 +24,7 @@ import butterknife.InjectView;
 //import com.lyy.ui.group.TagFlowLayout2;
 
 /**
- * Created by lyy on 2015/11/12.
+ * Created by lk on 2015/11/12.
  * 启动界面
  */
 public class LauncherActivity extends BaseActivity<ActivityLauncherBinding> {

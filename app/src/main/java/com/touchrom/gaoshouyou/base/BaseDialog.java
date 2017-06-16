@@ -7,7 +7,7 @@ import android.os.Bundle;
 import com.arialyy.frame.core.AbsDialogFragment;
 
 /**
- * Created by lyy on 2015/11/9.
+ * Created by lk on 2015/11/9.
  */
 @SuppressLint("ValidFragment")
 public abstract class BaseDialog<VB extends ViewDataBinding> extends AbsDialogFragment<VB> {

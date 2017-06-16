@@ -13,7 +13,7 @@ import com.touchrom.gaoshouyou.databinding.FragmentSimpleContentBinding;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2015/12/4.
+ * Created by lk on 2015/12/4.
  * 资讯界面
  */
 @SuppressLint("ValidFragment")

@@ -14,7 +14,7 @@ import com.touchrom.gaoshouyou.fragment.user.HaveGiftFragment;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2016/3/9.
+ * Created by lk on 2016/3/9.
  * 礼包
  */
 public class GiftManagerActivity extends BaseActivity<ActivityCollectBinding> {

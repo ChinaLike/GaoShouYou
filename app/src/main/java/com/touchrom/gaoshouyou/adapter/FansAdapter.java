@@ -28,7 +28,7 @@ import java.util.Map;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2016/3/16.
+ * Created by lk on 2016/3/16.
  * 粉丝Adapter
  */
 public class FansAdapter extends AbsOrdinaryAdapter<FansEntity, FansAdapter.FansHolder> {

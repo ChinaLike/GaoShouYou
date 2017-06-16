@@ -3,7 +3,7 @@ package com.touchrom.gaoshouyou.inf;
 import com.touchrom.gaoshouyou.entity.UserEntity;
 
 /**
- * Created by lyy on 2015/11/6.
+ * Created by lk on 2015/11/6.
  */
 public interface SettingInterface {
     int WIFI_NET = 0x01;

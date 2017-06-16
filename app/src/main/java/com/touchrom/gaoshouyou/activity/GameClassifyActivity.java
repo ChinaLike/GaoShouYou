@@ -37,7 +37,7 @@ import java.util.List;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2015/12/10.
+ * Created by lk on 2015/12/10.
  * 游戏分类详情
  */
 public class GameClassifyActivity extends BaseActivity<ActivityGameClassifyBinding> implements View.OnClickListener {

@@ -9,7 +9,7 @@ import java.util.Date;
 
 /**
  * 加密工具
- * Created by lyy on 14-5-14.
+ * Created by lk on 14-5-14.
  */
 public class Encryption {
 //    public final static String ACCESS_CODE = "Y1W2MeFwwwRxa0";

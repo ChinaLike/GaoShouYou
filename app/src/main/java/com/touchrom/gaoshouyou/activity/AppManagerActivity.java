@@ -42,7 +42,7 @@ import java.util.Set;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2015/12/21.
+ * Created by lk on 2015/12/21.
  * 应用管理界面
  */
 public class AppManagerActivity extends BaseActivity<ActivityAppManagerBinding> implements OnAMFragmentListener,

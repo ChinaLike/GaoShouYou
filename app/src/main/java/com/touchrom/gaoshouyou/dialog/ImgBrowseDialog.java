@@ -20,7 +20,7 @@ import java.util.List;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2016/2/2.
+ * Created by lk on 2016/2/2.
  * 图片浏览对话框
  */
 @TargetApi(11)

@@ -37,7 +37,7 @@ import rx.functions.Func1;
 import rx.schedulers.Schedulers;
 
 /**
- * Created by lyy on 2015/11/6.
+ * Created by lk on 2015/11/6.
  * activity基类
  */
 public abstract class BaseActivity<VB extends ViewDataBinding> extends AbsActivity<VB> {

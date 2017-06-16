@@ -30,7 +30,7 @@ import java.util.Map;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2016/3/17.
+ * Created by lk on 2016/3/17.
  * 礼包适配器
  */
 public class UserGiftAdapter extends AbsOrdinaryAdapter<GiftEntity, UserGiftAdapter.GiftHolder> {

@@ -23,7 +23,7 @@ import butterknife.InjectView;
 //import com.lyy.ui.group.TagFlowLayout2;
 
 /**
- * Created by lyy on 2015/12/11.
+ * Created by lk on 2015/12/11.
  * 游戏分类中筛选悬浮框
  */
 public class GameClassifyFilterPopupWindow extends BasePopupWindow implements View.OnClickListener

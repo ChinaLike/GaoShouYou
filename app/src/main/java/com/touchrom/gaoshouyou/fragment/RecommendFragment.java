@@ -17,7 +17,7 @@ import com.touchrom.gaoshouyou.help.turn.TurnHelp;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2015/12/7.
+ * Created by lk on 2015/12/7.
  * Game界面推荐Banner
  */
 @SuppressLint("ValidFragment")

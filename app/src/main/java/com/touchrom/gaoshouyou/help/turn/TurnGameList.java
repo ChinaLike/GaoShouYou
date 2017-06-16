@@ -17,7 +17,7 @@ import org.litepal.crud.DataSupport;
 import java.util.List;
 
 /**
- * Created by lyy on 2015/8/14.
+ * Created by lk on 2015/8/14.
  * 跳转到具体页面
  */
 final class TurnGameList extends TurnHelp implements ITurn {

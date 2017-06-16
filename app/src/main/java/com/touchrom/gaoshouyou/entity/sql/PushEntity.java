@@ -7,7 +7,7 @@ import com.google.gson.annotations.SerializedName;
 import com.touchrom.gaoshouyou.base.BaseSqlEntity;
 
 /**
- * Created by lyy on 2016/1/29.
+ * Created by lk on 2016/1/29.
  * 推送实体
  */
 public class PushEntity extends BaseSqlEntity implements Parcelable {

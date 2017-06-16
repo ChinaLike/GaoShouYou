@@ -20,7 +20,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by lyy on 2016/1/18.
+ * Created by lk on 2016/1/18.
  * 搜索模型
  */
 public class SearchModule extends BaseModule {

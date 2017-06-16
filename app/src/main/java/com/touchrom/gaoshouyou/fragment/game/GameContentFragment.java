@@ -14,7 +14,7 @@ import com.touchrom.gaoshouyou.fragment.game.topic.GameTopicFragment;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2015/12/4.
+ * Created by lk on 2015/12/4.
  * 游戏bar界面
  */
 @SuppressLint("ValidFragment")

@@ -18,7 +18,7 @@ import com.touchrom.gaoshouyou.databinding.DialogImgChooseBinding;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2016/2/29.
+ * Created by lk on 2016/2/29.
  * 头像图片选择方式对话框
  */
 @SuppressLint("ValidFragment")

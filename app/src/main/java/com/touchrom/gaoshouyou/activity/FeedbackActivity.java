@@ -15,7 +15,7 @@ import com.touchrom.gaoshouyou.util.S;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2015/12/2.
+ * Created by lk on 2015/12/2.
  * 反馈界面
  */
 public class FeedbackActivity extends BaseActivity<ActivityFeedbackBinding> {

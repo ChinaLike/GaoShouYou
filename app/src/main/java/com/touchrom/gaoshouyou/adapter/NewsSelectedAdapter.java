@@ -25,7 +25,7 @@ import java.util.List;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2016/3/1.
+ * Created by lk on 2016/3/1.
  * 资讯精选Adapter
  */
 public class NewsSelectedAdapter extends AbsRVAdapter<NewsEntity, NewsSelectedAdapter.MyHolder> {

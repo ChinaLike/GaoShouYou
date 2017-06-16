@@ -9,7 +9,7 @@ import com.bumptech.glide.Glide;
 import com.touchrom.gaoshouyou.R;
 
 /**
- * Created by lyy on 2015/12/10.
+ * Created by lk on 2015/12/10.
  * 图片帮助类
  */
 public class ImgHelp {

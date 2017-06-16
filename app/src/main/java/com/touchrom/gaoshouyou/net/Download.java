@@ -7,7 +7,7 @@ import com.arialyy.downloadutil.DownloadListener;
 
 
 /**
- * Created by lyy on 2015/11/12.
+ * Created by lk on 2015/11/12.
  * 文件下载
  */
 public class Download {

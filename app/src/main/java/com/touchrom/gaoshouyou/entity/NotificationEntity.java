@@ -1,7 +1,7 @@
 package com.touchrom.gaoshouyou.entity;
 
 /**
- * Created by lyy on 2015/11/13.
+ * Created by lk on 2015/11/13.
  * Notification实体
  */
 public class NotificationEntity {

@@ -8,7 +8,7 @@ import com.touchrom.gaoshouyou.entity.GSYSEntity;
 import com.touchrom.gaoshouyou.service.GaoShouYouService;
 
 /**
- * Created by lyy on 2016/1/14.
+ * Created by lk on 2016/1/14.
  * 高手游全局服务帮助类
  */
 public class GSYServiceHelp {

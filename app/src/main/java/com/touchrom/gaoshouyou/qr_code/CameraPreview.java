@@ -11,7 +11,7 @@ import android.view.SurfaceView;
 import java.io.IOException;
 
 /**
- * Created by lyy on 2016/5/5.
+ * Created by lk on 2016/5/5.
  * 相机预览View
  */
 public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback {

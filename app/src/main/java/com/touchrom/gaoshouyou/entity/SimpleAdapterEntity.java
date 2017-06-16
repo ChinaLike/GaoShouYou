@@ -3,7 +3,7 @@ package com.touchrom.gaoshouyou.entity;
 import android.graphics.drawable.Drawable;
 
 /**
- * Created by lyy on 2015/12/3.
+ * Created by lk on 2015/12/3.
  * 简单的Adapter实体
  */
 public class SimpleAdapterEntity {

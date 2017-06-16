@@ -12,7 +12,7 @@ import com.touchrom.gaoshouyou.entity.GameInfoEntity;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2016/3/28.
+ * Created by lk on 2016/3/28.
  */
 class GameTitleDelegate extends AbsDelegation<GameInfoEntity, GameTitleDelegate.GameTitleHolder> {
 

@@ -42,7 +42,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * Created by lyy on 2015/12/22.
+ * Created by lk on 2015/12/22.
  * 应用管理的可更新，已安装，安装包的Adapter
  */
 public class AppManagerAdapter extends AbsRVAdapter<ApkInfoEntity, AppManagerAdapter.AppManagerHolder> {

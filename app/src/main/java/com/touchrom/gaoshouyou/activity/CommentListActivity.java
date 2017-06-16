@@ -24,7 +24,7 @@ import java.util.List;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2016/3/15.
+ * Created by lk on 2016/3/15.
  * 评论列表
  */
 public class CommentListActivity extends BaseActivity<ActivityCommentListBinding> {

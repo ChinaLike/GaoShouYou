@@ -28,7 +28,7 @@ import java.util.List;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2015/12/17.
+ * Created by lk on 2015/12/17.
  * 游戏展示详情页面
  */
 @SuppressLint("ValidFragment")

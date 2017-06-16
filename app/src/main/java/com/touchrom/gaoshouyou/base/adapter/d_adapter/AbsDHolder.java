@@ -7,7 +7,7 @@ import android.view.View;
 import butterknife.ButterKnife;
 
 /**
- * Created by lyy on 2016/3/28.
+ * Created by lk on 2016/3/28.
  */
 public class AbsDHolder {
     View mView;

@@ -34,7 +34,7 @@ import java.util.Map;
 import butterknife.InjectView;
 
 /**
- * Created by lyy on 2016/3/17.
+ * Created by lk on 2016/3/17.
  * 抢号成功
  */
 public class GiftGrabSuccessDialog extends AbsDialog implements View.OnClickListener {

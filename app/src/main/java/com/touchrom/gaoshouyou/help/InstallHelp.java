@@ -8,7 +8,7 @@ import com.touchrom.gaoshouyou.activity.InstallTempActivity;
 import com.touchrom.gaoshouyou.config.Constance;
 
 /**
- * Created by lyy on 2015/11/13.
+ * Created by lk on 2015/11/13.
  * 安装帮助类
  */
 public class InstallHelp {

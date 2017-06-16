@@ -21,7 +21,7 @@ import java.util.Map;
 import java.util.WeakHashMap;
 
 /**
- * Created by lyy on 2016/1/8.
+ * Created by lk on 2016/1/8.
  * 下载帮助类
  */
 public class DownloadHelp {
